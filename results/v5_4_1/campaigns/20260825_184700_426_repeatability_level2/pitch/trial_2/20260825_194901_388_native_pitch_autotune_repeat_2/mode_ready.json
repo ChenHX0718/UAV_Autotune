@@ -1,0 +1,8 @@
+{
+  "pass": true,
+  "state": "AUTOTUNE_READY",
+  "ready_simulation_s": 7.36,
+  "ready_timestamp_utc": "2026-08-25T11:49:50.615525+00:00",
+  "scoring_start_simulation_s": 8.0,
+  "scoring_end_simulation_s": 180.0
+}

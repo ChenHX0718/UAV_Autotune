@@ -1,0 +1,14 @@
+{
+  "requested_mode": "FBWA",
+  "requested_mode_number": 5,
+  "request_timestamp_utc": "2026-08-25T10:11:25.472287+00:00",
+  "ack_received": true,
+  "ack_result": 0,
+  "readback_mode_number": 5,
+  "readback_pass": true,
+  "pass": true,
+  "failure_reason": "",
+  "ack_timestamp_utc": "2026-08-25T10:11:25.631442+00:00",
+  "readback_timestamp_utc": "2026-08-25T10:11:25.631894+00:00",
+  "detail": "MODE_CHANGE_ACK_AND_READBACK_PASS"
+}

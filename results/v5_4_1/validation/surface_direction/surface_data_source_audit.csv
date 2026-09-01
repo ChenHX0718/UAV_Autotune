@@ -1,0 +1,5 @@
+Surface,DataSource,Direction,MinDeflection_deg,MaxDeflection_deg,NeutralPWM_us
+Left Aileron,MEASURED,-1,-30.55,37.85,1410
+Right Aileron,ASSUMED_FROM_LEFT_AILERON,1,-37.85,30.55,1410
+Elevator,ASSUMED_FROM_LEFT_AILERON,1,-12,10,1410
+Rudder,ASSUMED_FROM_LEFT_AILERON,-1,-22,22,1410

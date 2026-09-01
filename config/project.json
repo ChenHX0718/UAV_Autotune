@@ -1,0 +1,71 @@
+{
+  "version": "5.4.1",
+  "aircraft_id": "UAV_A",
+  "model_name": "UAV_Autotune_Model_4Axis",
+  "wsl": {
+    "distro": "auto",
+    "preferred_distro": "Ubuntu-24.04",
+    "repo_name": "ardupilot-v5_1"
+  },
+  "ardupilot": {
+    "repository": "https://github.com/ArduPilot/ardupilot.git",
+    "tag": "Plane-4.7.0",
+    "commit": "1511f27194f1dcc3728270883047bdf022b3fd53",
+    "build_target": "sitl/plane",
+    "binary_relative_path": "build/sitl/bin/arduplane"
+  },
+  "network": {
+    "json_udp_port": 9002,
+    "mission_planner_udp_port": 14550,
+    "headless_mavlink_udp_port": 14551,
+    "wsl_local_control_udp_port": 14552,
+    "receive_timeout_s": 30
+  },
+  "timing": {
+    "base_step_s": 0.005,
+    "communication_step_s": 0.02,
+    "logging_step_s": 0.02,
+    "sitl_rate_hz": 50,
+    "speedup": 4
+  },
+  "native_autotune": {
+    "mode_number": 8,
+    "fbwa_mode_number": 5,
+    "default_level": 2,
+    "roll_axis_mask": 1,
+    "pitch_axis_mask": 2,
+    "yaw_axis_mask": 4,
+    "deterministic_seed": 42,
+    "repeatability_count": 3,
+    "repeatability_max_cv": 0.15,
+    "completion_event": "FIRST_EXACT_AXIS_FINISHED"
+  },
+  "capability_margin": {
+    "comfortable_max": 0.70,
+    "reasonable_max": 0.90,
+    "boundary_max": 1.00,
+    "nominal_airspeed_margin_mps": 3.0,
+    "research_only_max_count": 1
+  },
+  "mode_gate": {
+    "minimum_startup_guard_s": 4.0,
+    "startup_timeout_wall_s": 180,
+    "heartbeat_required_count": 3,
+    "fdm_required_count": 20,
+    "attitude_alignment_required_count": 5,
+    "attitude_alignment_roll_pitch_tolerance_deg": 5.0,
+    "attitude_alignment_yaw_tolerance_deg": 15.0,
+    "mode_required_count": 3,
+    "mode_stable_sim_s": 1.0,
+    "mode_heartbeat_timeout_wall_s": 30,
+    "parameter_query_name": "AUTOTUNE_LEVEL",
+    "coverage_tolerance": 0.0,
+    "dropout_handover_s": 2.0
+  },
+  "home": {
+    "latitude_deg": 39.9042,
+    "longitude_deg": 116.4074,
+    "altitude_m": 120,
+    "yaw_deg": 0
+  }
+}

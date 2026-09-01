@@ -1,0 +1,10 @@
+Check,Pass,Observed,Threshold,Detail
+finite_state,1,0,0,non-finite samples=0
+roll,1,11.8411569891039,45,observed=11.841157 threshold=45
+pitch,1,4.67116516350249,25,observed=4.67116516 threshold=25
+airspeed,1,12.5438896278047,8,observed=12.5438896 threshold=8
+aoa,1,2.71345757013093,15,observed=2.71345757 threshold=15
+sideslip,1,4.63214206822185,20,observed=4.63214207 threshold=20
+altitude,1,67.3334147949738,50,observed=67.3334148 threshold=50
+angular_rate,1,67.4662908735763,300,observed=67.4662909 threshold=300
+servo_saturation,1,0,0.2,observed=0 threshold=0.2

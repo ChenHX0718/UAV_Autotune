@@ -1,0 +1,4 @@
+scenario,purpose,interfaceOverall,controlRating,rcMaxErrorUs,fbwaMappingMaxErrorDeg,packetCount,runDirectories
+fbwa_roll_rc_positive,independent_step,FAIL,UNTUNED,0,0.0100002288818359,1001,E:\动力学搭建\成品\UAV_Autotune_v5_4_Capability_Driven\results\20260824_212507_fbwa_roll_rc_positive_wsl
+fbwa_roll_rc_negative,independent_step,FAIL,UNTUNED,0,0.0100002288818359,1001,E:\动力学搭建\成品\UAV_Autotune_v5_4_Capability_Driven\results\20260824_212709_fbwa_roll_rc_negative_wsl
+fbwa_roll_rc_continuous,continuous_state_history_validation,FAIL,UNTUNED,0,0.0100002288818359,1601,E:\动力学搭建\成品\UAV_Autotune_v5_4_Capability_Driven\results\20260824_212911_fbwa_roll_rc_continuous_wsl

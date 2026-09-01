@@ -1,0 +1,4 @@
+rank,candidate,valid,readbackPass,interfacePass,rmseComponent,overshootComponent,settlingComponent,oscillationComponent,saturationComponent,total,runDirectory
+1,candidate_fast,1,1,1,0.274823053027051,0.0534440831481727,0.991999999999999,0.246302829320683,0,1.56656996549591,E:\动力学搭建\成品\UAV_Autotune_v5_2_Interface_Audit_Autotune\results\20260822_021255_fbwa_roll_rc_autotune_wsl
+2,baseline,1,1,1,0.288928455983979,0.0645339399135463,0.991999999999999,0.242773190988927,0,1.58823558688645,E:\动力学搭建\成品\UAV_Autotune_v5_2_Interface_Audit_Autotune\results\20260822_021111_fbwa_roll_rc_autotune_wsl
+3,candidate_damped,1,1,1,0.28909024051745,0.0733329714849455,0.991999999999999,0.243492460841394,0,1.59791567284379,E:\动力学搭建\成品\UAV_Autotune_v5_2_Interface_Audit_Autotune\results\20260822_021435_fbwa_roll_rc_autotune_wsl

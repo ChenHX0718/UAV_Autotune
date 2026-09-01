@@ -1,0 +1,26 @@
+{
+  "requested_mode": "AUTOTUNE",
+  "requested_mode_number": 8,
+  "request_timestamp_utc": "2026-08-25T10:15:54.131188+00:00",
+  "ack_received": true,
+  "ack_result": 0,
+  "readback_mode_number": 8,
+  "readback_pass": true,
+  "pass": true,
+  "failure_reason": "",
+  "ack_timestamp_utc": "2026-08-25T10:15:55.092937+00:00",
+  "readback_timestamp_utc": "2026-08-25T10:15:55.093007+00:00",
+  "detail": "ACK_READBACK_AND_STABLE_HEARTBEATS_PASS",
+  "stable_confirmation": {
+    "pass": true,
+    "expected_mode": "AUTOTUNE",
+    "expected_mode_number": 8,
+    "required_heartbeat_count": 3,
+    "observed_consecutive_heartbeat_count": 3,
+    "required_stable_simulation_s": 1.0,
+    "observed_stable_simulation_s": 1.7599999999999998,
+    "ready_simulation_s": 7.26,
+    "confirmation_timestamp_utc": "2026-08-25T10:16:06.373955+00:00"
+  },
+  "ready_simulation_s": 7.26
+}

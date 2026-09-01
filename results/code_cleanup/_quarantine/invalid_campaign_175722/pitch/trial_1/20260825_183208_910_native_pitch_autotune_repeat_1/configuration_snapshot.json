@@ -1,0 +1,13 @@
+{
+  "created_utc": "2026-08-25 10:32:18",
+  "version": "5.4.1",
+  "scenario": "native_pitch_autotune",
+  "requested_mode": "AUTOTUNE",
+  "ardupilot_commit": "1511f27194f1dcc3728270883047bdf022b3fd53",
+  "initial_airspeed_mps": 13,
+  "random_seed": 42,
+  "actuator_fidelity": "ENGINEERING",
+  "sensor_fidelity": "ENGINEERING",
+  "headless": true,
+  "tuning_owner": "ArduPilot Native AUTOTUNE"
+}

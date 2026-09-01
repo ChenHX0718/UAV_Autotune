@@ -1,0 +1,20 @@
+{
+  "pass": false,
+  "failure_reason": "MODE_DROPOUT",
+  "expected_mode": "AUTOTUNE",
+  "expected_mode_number": 8,
+  "scoring_start_time_s": 8,
+  "scoring_end_time_s": 146,
+  "coverage_tolerance": 0,
+  "fbwa_coverage": 0,
+  "manual_coverage": 0,
+  "other_mode_coverage": 0.10855270299519935,
+  "detail": "DATAFLASH_SCORING_WINDOW_MODE_COVERAGE_FAILED",
+  "expected_mode_coverage": 0.89144729700480063,
+  "duration_expected_s": 16.259988,
+  "duration_manual_s": 0,
+  "duration_other_s": 1.9800000000000004,
+  "dataflash_end_time_s": 26.239988,
+  "observed_scoring_end_time_s": 26.239988,
+  "complete_scoring_window": false
+}

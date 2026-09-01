@@ -1,0 +1,79 @@
+function sensor = load_sensor_configuration()
+%LOAD_SENSOR_CONFIGURATION Engineering sensor-error configuration.
+% Values are deliberately control-oriented. Exact measured unit calibration
+% is not available, so non-source defaults are labelled ASSUMED.
+
+sensor.base_sample_time_s = 0.005;
+sensor.enable_noise = true;
+sensor.random_seed = 42;
+sensor.native_sitl = true;
+
+sensor.gyroscope = sensorCfg( ...
+    deg2rad([0.05,-0.04,0.03]),deg2rad(0.02)*ones(1,3), ...
+    deg2rad(0.02)*ones(1,3),0.002,0.005,0.005,0, ...
+    "ASSUMED","ICM-20689-class IMU; conservative control-oriented values");
+sensor.accelerometer = sensorCfg( ...
+    [0.02,-0.02,0.03],0.03*ones(1,3),0.015*ones(1,3), ...
+    0.0015,0.005,0.005,0, ...
+    "ASSUMED","ICM-20689-class IMU; applied in the JSON IMU frame");
+sensor.gps_position = sensorCfg( ...
+    [0,0,0],0.30*ones(1,3),zeros(1,3),0,0.20,0.20,0.01, ...
+    "OPEN_SOURCE","Plane-4.7.0 SIM GPS defaults: 5 Hz, 100 ms lag, 0.3 m accuracy; V5.4 uses 200 ms conservative lag");
+sensor.gps_velocity = sensorCfg( ...
+    [0,0,0],0.08*ones(1,3),zeros(1,3),0,0.20,0.20,0.01, ...
+    "ASSUMED","Velocity noise added around the ArduPilot 5 Hz GPS model");
+sensor.barometer = sensorCfg( ...
+    0.50,0.15,0.25,0.001,0.02,0.05,0.01, ...
+    "ASSUMED","DPS310-class barometer engineering bias/drift envelope");
+sensor.magnetometer = sensorCfg( ...
+    deg2rad(0.5),deg2rad(0.2),deg2rad(0.1),0.001,0.01,0.01,0, ...
+    "ASSUMED","Compass heading-error surrogate at estimator interface");
+sensor.airspeed = sensorCfg( ...
+    0.20,0.10,0.05,0.001,0.02,0.04,0.01, ...
+    "ASSUMED","Control-oriented pitot offset/noise/delay envelope");
+
+sensor.vector = vectorConfiguration(sensor);
+sensor.source_tags = struct( ...
+    "sampling_and_delay","OPEN_SOURCE", ...
+    "bias","ASSUMED", ...
+    "drift","ASSUMED", ...
+    "noise","ASSUMED");
+sensor.native_magnetometer_offset_mgauss = [10,-6,4];
+end
+
+function value = sensorCfg(bias,noise,drift,driftHz,sampleTime,delay,quantum,source,reason)
+value = struct("bias",bias,"noise_std",noise, ...
+    "drift_amplitude",drift,"drift_frequency_hz",driftHz, ...
+    "sample_time_s",sampleTime,"delay_s",delay, ...
+    "quantization",quantum,"data_source",source,"source_reason",reason);
+end
+
+function vector = vectorConfiguration(sensor)
+% State order: position NED(3), velocity body(3), rates body(3),
+% Euler(3), alpha/beta(2), airspeed(1), altitude(1).
+vector.bias = zeros(16,1);
+vector.noise_std = zeros(16,1);
+vector.drift_amplitude = zeros(16,1);
+vector.drift_frequency_hz = zeros(16,1);
+vector.sample_time_s = 0.005*ones(16,1);
+vector.delay_s = zeros(16,1);
+vector.quantization = zeros(16,1);
+
+vector = assignCfg(vector,1:3,sensor.gps_position);
+vector = assignCfg(vector,4:6,sensor.gps_velocity);
+vector = assignCfg(vector,7:9,sensor.gyroscope);
+% Roll/pitch remain an estimator output surrogate; yaw carries compass error.
+vector = assignCfg(vector,12,sensor.magnetometer);
+vector = assignCfg(vector,15,sensor.airspeed);
+vector = assignCfg(vector,16,sensor.barometer);
+end
+
+function vector = assignCfg(vector,indices,cfg)
+fields = ["bias","noise_std","drift_amplitude","drift_frequency_hz", ...
+    "sample_time_s","delay_s","quantization"];
+for name = fields
+    raw = double(cfg.(name));
+    if isscalar(raw), raw = repmat(raw,numel(indices),1); else, raw = raw(:); end
+    vector.(name)(indices) = raw;
+end
+end

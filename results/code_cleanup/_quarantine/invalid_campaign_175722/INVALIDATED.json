@@ -1,0 +1,10 @@
+{
+  "status": "INVALIDATED",
+  "reason": "ROLL_TIMEOUT_CAPACITY_INSUFFICIENT_FOR_OFFICIAL_FINISHED",
+  "detail": "Formal evidence from this campaign must not be promoted. Roll trial 1 was safe and technically valid as a timeout diagnosis, but no official Roll: Finished event occurred before the superseded deadline.",
+  "replacement_configuration": {
+    "roll_cycles": 30,
+    "pitch_cycles": 20,
+    "completion_gate": "FIRST_EXACT_AXIS_FINISHED_STATUSTEXT"
+  }
+}

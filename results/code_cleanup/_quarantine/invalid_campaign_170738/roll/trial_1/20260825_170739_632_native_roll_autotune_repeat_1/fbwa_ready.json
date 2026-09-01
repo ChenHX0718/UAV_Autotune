@@ -1,0 +1,32 @@
+{
+  "pass": true,
+  "state": "FBWA_READY",
+  "ready_simulation_s": 5.34,
+  "ready_timestamp_utc": "2026-08-25T09:08:26.253124+00:00",
+  "mode_evidence": {
+    "requested_mode": "FBWA",
+    "requested_mode_number": 5,
+    "request_timestamp_utc": "2026-08-25T09:08:20.179982+00:00",
+    "ack_received": true,
+    "ack_result": 0,
+    "readback_mode_number": 5,
+    "readback_pass": true,
+    "pass": true,
+    "failure_reason": "",
+    "ack_timestamp_utc": "2026-08-25T09:08:20.398119+00:00",
+    "readback_timestamp_utc": "2026-08-25T09:08:20.398173+00:00",
+    "detail": "ACK_READBACK_AND_STABLE_HEARTBEATS_PASS",
+    "stable_confirmation": {
+      "pass": true,
+      "expected_mode": "FBWA",
+      "expected_mode_number": 5,
+      "required_heartbeat_count": 3,
+      "observed_consecutive_heartbeat_count": 3,
+      "required_stable_simulation_s": 1.0,
+      "observed_stable_simulation_s": 1.2199999999999998,
+      "ready_simulation_s": 5.34,
+      "confirmation_timestamp_utc": "2026-08-25T09:08:26.249264+00:00"
+    },
+    "ready_simulation_s": 5.34
+  }
+}

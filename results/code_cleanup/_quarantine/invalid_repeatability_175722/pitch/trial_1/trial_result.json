@@ -1,0 +1,213 @@
+{
+  "axis": "pitch",
+  "level": 2,
+  "status": "FAIL",
+  "failure_reason": "MODE_DROPOUT",
+  "run": {
+    "overall": "FAIL",
+    "failure_reason": "MODE_DROPOUT",
+    "run_directory": "E:\\动力学搭建\\成品\\UAV_Autotune_v5_4_1_Validation_Fix\\results\\v5_4_1\\campaigns\\20260825_175722_539_repeatability_level2\\pitch\\trial_1\\20260825_183208_910_native_pitch_autotune_repeat_1",
+    "scenario": "native_pitch_autotune",
+    "axis": "pitch",
+    "requested_mode": "AUTOTUNE",
+    "simulation_pass": false,
+    "simulation_error": "错误使用 v53.runScenario (第 103 行)\n计算 '<a href=\"matlab:open_and_hilite_hyperlink ('UAV_Autotune_Model_4Axis/Autopilot_PID/Cascaded_PID','error')\">UAV_Autotune_Model_4Axis/Autopilot_PID/Cascaded_PID</a>' 中的 MATLAB S-Function 'uav_autopilot_sfunc' 的注册方法\n'Outputs' 时出错。以下是产生此错误的 MATLAB 调用堆栈(文件名和行号):\n ['E:\\动力学搭建\\成品\\UAV_Autotune_v5_4_1_Validation_Fix\\model\\V52ArduPilotJSONBridge.m'] [370]\n ['E:\\动力学搭建\\成品\\UAV_Autotune_v5_4_1_Validation_Fix\\model\\V52ArduPilotJSONBridge.m'] [110]\n ['E:\\动力学搭建\\成品\\UAV_Autotune_v5_4_1_Validation_Fix\\model\\ardupilot_sitl_controller.m'] [15]\n ['E:\\动力学搭建\\成品\\UAV_Autotune_v5_4_1_Validation_Fix\\model\\uav_autopilot_sfunc.m'] [54]\n ['D:\\Program\n Files\\MATLAB\\R2024b\\toolbox\\simulink\\simulationinput_desktop\\+Simulink\\+Simulation\\+internal\\DesktopSimHelper.p']\n [0]\n ['D:\\Program\n Files\\MATLAB\\R2024b\\toolbox\\simulink\\simulationinput_desktop\\+Simulink\\+Simulation\\+internal\\DesktopSimHelper.p']\n [0]\n ['D:\\Program Files\\MATLAB\\R2024b\\toolbox\\simulink\\simulationinput\\+Simulink\\SimulationInput.p'] [0]\n ['E:\\动力学搭建\\成品\\UAV_Autotune_v5_4_1_Validation_Fix\\matlab\\+v53\\runScenario.m'] [103]\n ['E:\\动力学搭建\\成品\\UAV_Autotune_v5_4_1_Validation_Fix\\run_v541_native_autotune_axis.m'] [27]\n ['E:\\动力学搭建\\成品\\UAV_Autotune_v5_4_1_Validation_Fix\\run_v541_autotune_repeatability.m'] [47]\n\n出错 run_v541_native_autotune_axis (第 27 行)\n    \"YAW_RATE_ENABLE\",0);\n    ^^^^^^^^^^^^^^^^^^^^^\n出错 run_v541_autotune_repeatability (第 47 行)\n        outputFile = fullfile(trialDir,\"params_after.param\");\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n原因:\n    错误使用 Simulink.Simulation.internal.DesktopSimHelper\n    Timed out waiting for a fresh ArduPlane frame on UDP 9002.\n    \n    出错 Simulink.Simulation.internal.DesktopSimHelper.sim\n    \n    出错 Simulink.SimulationInput/sim\n    \n    出错 v53.runScenario (第 103 行)\n                \"SolverType\",\"Fixed-step\",\"Solver\",\"ode4\", ...\n                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n    出错 run_v541_native_autotune_axis (第 27 行)\n        \"YAW_RATE_ENABLE\",0);\n        ^^^^^^^^^^^^^^^^^^^^^\n    出错 run_v541_autotune_repeatability (第 47 行)\n            outputFile = fullfile(trialDir,\"params_after.param\");\n            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^",
+    "dataflash_pass": true,
+    "dataflash_detail": "{\"source\": \"/mnt/e/\\u52a8\\u529b\\u5b66\\u642d\\u5efa/\\u6210\\u54c1/UAV_Autotune_v5_4_1_Validation_Fix/results/v5_4_1/campaigns/20260825_175722_539_repeatability_level2/pitch/trial_1/20260825_183208_910_native_pitch_autotune_repeat_1/logs/00000001.BIN\", \"message_counts\": {\"ATT\": 477, \"RCIN\": 477, \"RCOU\": 477, \"PIDR\": 477, \"PIDP\": 477, \"PIDY\": 477, \"PARM\": 1353, \"MODE\": 3, \"CTUN\": 477, \"NTUN\": 477, \"VER\": 1, \"ATRP\": 398, \"MSG\": 23, \"EV\": 1}, \"export_pass\": true}\n",
+    "mode_pass": false,
+    "mode_session": {
+      "pass": false,
+      "failure_reason": "MODE_CHANGE_FAIL",
+      "detail": "MODE_SESSION_EVIDENCE_MISSING"
+    },
+    "mode_scoring_audit": {
+      "pass": false,
+      "failure_reason": "MODE_DROPOUT",
+      "expected_mode": "AUTOTUNE",
+      "expected_mode_number": 8,
+      "scoring_start_time_s": 8,
+      "scoring_end_time_s": 353,
+      "coverage_tolerance": 0,
+      "fbwa_coverage": 0,
+      "manual_coverage": 0,
+      "other_mode_coverage": 0,
+      "detail": "DATAFLASH_SCORING_WINDOW_MODE_COVERAGE_FAILED",
+      "expected_mode_coverage": 1,
+      "duration_expected_s": 13.319987999999999,
+      "duration_manual_s": 0,
+      "duration_other_s": 0,
+      "dataflash_end_time_s": 21.319988,
+      "observed_scoring_end_time_s": 21.319988,
+      "complete_scoring_window": false
+    },
+    "packet_integrity": {
+      "pass": true,
+      "failure_reason": "",
+      "count": 1068,
+      "intentional_truncation": true,
+      "expected_minimum": 853,
+      "nan_count": 0,
+      "inf_count": 0,
+      "dropped": 0,
+      "invalid": 0
+    },
+    "safety": {
+      "pass": false,
+      "failure_reason": "LOG_MISSING",
+      "checks": [
+        {
+          "checks": "finite_state",
+          "pass": false,
+          "observed": null,
+          "threshold": null,
+          "detail": ""
+        },
+        {
+          "checks": "roll",
+          "pass": false,
+          "observed": null,
+          "threshold": null,
+          "detail": ""
+        },
+        {
+          "checks": "pitch",
+          "pass": false,
+          "observed": null,
+          "threshold": null,
+          "detail": ""
+        },
+        {
+          "checks": "airspeed",
+          "pass": false,
+          "observed": null,
+          "threshold": null,
+          "detail": ""
+        },
+        {
+          "checks": "aoa",
+          "pass": false,
+          "observed": null,
+          "threshold": null,
+          "detail": ""
+        },
+        {
+          "checks": "sideslip",
+          "pass": false,
+          "observed": null,
+          "threshold": null,
+          "detail": ""
+        },
+        {
+          "checks": "altitude",
+          "pass": false,
+          "observed": null,
+          "threshold": null,
+          "detail": ""
+        },
+        {
+          "checks": "angular_rate",
+          "pass": false,
+          "observed": null,
+          "threshold": null,
+          "detail": ""
+        },
+        {
+          "checks": "servo_saturation",
+          "pass": false,
+          "observed": null,
+          "threshold": null,
+          "detail": ""
+        }
+      ]
+    },
+    "atrp_present": true,
+    "parameter_readback_pass": true,
+    "online_safety_abort": false,
+    "mode_dropout": true,
+    "autotune_completion_class": "FAILED_OTHER"
+  },
+  "parse": {
+    "axis": "pitch",
+    "status": "FAIL",
+    "completion_class": "INCOMPLETE",
+    "failure_reason": "AUTOTUNE_NO_PROGRESS",
+    "atrp_rows": 398,
+    "effective_excitation_count": 2,
+    "rejected_excitation_count": 0,
+    "d_boundary_observed": false,
+    "p_boundary_observed": false,
+    "finished_message_observed": false,
+    "first_finished_time_s": null,
+    "finished_message": "",
+    "parameter_summary": [
+      {
+        "Parameter": "FF",
+        "Initial": 0.79500001668930054,
+        "MinimumObserved": 0.79500001668930054,
+        "MaximumObserved": 0.99724805355072021,
+        "Final": 0.99724805355072021,
+        "NumberOfUpdates": 2
+      },
+      {
+        "Parameter": "P",
+        "Initial": 0.34216248989105225,
+        "MinimumObserved": 0.11975686997175217,
+        "MaximumObserved": 0.34216248989105225,
+        "Final": 0.11975686997175217,
+        "NumberOfUpdates": 1
+      },
+      {
+        "Parameter": "I",
+        "Initial": 0.59974998235702515,
+        "MinimumObserved": 0.59974998235702515,
+        "MaximumObserved": 0.99724805355072021,
+        "Final": 0.99724805355072021,
+        "NumberOfUpdates": 2
+      },
+      {
+        "Parameter": "D",
+        "Initial": 0.024002499878406525,
+        "MinimumObserved": 0.018001874908804893,
+        "MaximumObserved": 0.024002499878406525,
+        "Final": 0.018001874908804893,
+        "NumberOfUpdates": 1
+      },
+      {
+        "Parameter": "RMAX",
+        "Initial": 55,
+        "MinimumObserved": 30,
+        "MaximumObserved": 55,
+        "Final": 30,
+        "NumberOfUpdates": 2
+      },
+      {
+        "Parameter": "TAU",
+        "Initial": 0.46000000834465027,
+        "MinimumObserved": 0.46000000834465027,
+        "MaximumObserved": 0.60834997892379761,
+        "Final": 0.60834997892379761,
+        "NumberOfUpdates": 2
+      }
+    ],
+    "timeline_file": "E:\\动力学搭建\\成品\\UAV_Autotune_v5_4_1_Validation_Fix\\results\\v5_4_1\\campaigns\\20260825_175722_539_repeatability_level2\\pitch\\trial_1\\20260825_183208_910_native_pitch_autotune_repeat_1\\AUTOTUNE_TIMELINE.csv"
+  },
+  "legality": [],
+  "design": {
+    "source_commit": "1511f27194f1dcc3728270883047bdf022b3fd53",
+    "autotune_level": 2,
+    "cycles": 40,
+    "attitude_limit_deg": 3,
+    "target_tau_s": 1.35,
+    "target_rmax_deg_s": 30,
+    "rate_threshold_deg_s": 0.88888888888888884,
+    "required_angle_error_deg": 1.38,
+    "positive_rc_normalized": 0.1725,
+    "negative_rc_normalized": 0.45999999999999996,
+    "hold_time_s": 2.7,
+    "neutral_time_s": 1.62,
+    "minimum_source_sample_s": 0.1,
+    "scenario_file": "E:\\动力学搭建\\成品\\UAV_Autotune_v5_4_1_Validation_Fix\\config\\scenarios\\native_pitch_autotune.json",
+    "scenario_name": "native_pitch_autotune"
+  },
+  "parameter_file": ""
+}

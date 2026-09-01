@@ -1,0 +1,34 @@
+V5.2 ArduPlane JSON adapter log
+2026-08-25 17:40:38.376 | ADAPTER_CREATED | run_dir=E:\动力学搭建\成品\UAV_Autotune_v5_4_1_Validation_Fix\results\v5_4_1\campaigns\20260825_174019_189_alignment_probe\roll\20260825_174019_975_native_roll_autotune_alignment_probe
+2026-08-25 17:40:38.455 | STATE | STARTING -> WAITING_FOR_SITL | UDP listener ready
+2026-08-25 17:40:38.459 | UDP_LISTEN | local=0.0.0.0:9002
+2026-08-25 17:40:38.843 | STATE | WAITING_FOR_SITL -> CONNECTED | First valid servo frame received
+2026-08-25 17:40:38.847 | BIDIRECTIONAL_HANDSHAKE | sender=172.26.58.221:44513 frame=0
+2026-08-25 17:40:39.008 | RATE_BOOTSTRAP | initial_request_hz=1200.000 applied_step_s=0.020000
+2026-08-25 17:40:39.285 | STATE | CONNECTED -> READY | Fresh frame=1 timestamp=0.020000 and PWM mapping valid
+2026-08-25 17:40:39.289 | STATE | READY -> RUNNING | Lock-step exchange active
+2026-08-25 17:40:46.252 | LOCKSTEP | t=0.980 tx=50 rx=51 frame=50 dropped=0 invalid=0
+2026-08-25 17:40:52.101 | LOCKSTEP | t=1.980 tx=100 rx=101 frame=100 dropped=0 invalid=0
+2026-08-25 17:40:58.250 | LOCKSTEP | t=2.980 tx=150 rx=151 frame=150 dropped=0 invalid=0
+2026-08-25 17:41:03.846 | LOCKSTEP | t=3.980 tx=200 rx=201 frame=200 dropped=0 invalid=0
+2026-08-25 17:41:08.921 | LOCKSTEP | t=4.980 tx=250 rx=251 frame=250 dropped=0 invalid=0
+2026-08-25 17:41:14.654 | LOCKSTEP | t=5.980 tx=300 rx=301 frame=300 dropped=0 invalid=0
+2026-08-25 17:41:20.936 | LOCKSTEP | t=6.980 tx=350 rx=351 frame=350 dropped=0 invalid=0
+2026-08-25 17:41:26.814 | LOCKSTEP | t=7.980 tx=400 rx=401 frame=400 dropped=0 invalid=0
+2026-08-25 17:41:33.167 | LOCKSTEP | t=8.980 tx=450 rx=451 frame=450 dropped=0 invalid=0
+2026-08-25 17:41:39.331 | LOCKSTEP | t=9.980 tx=500 rx=501 frame=500 dropped=0 invalid=0
+2026-08-25 17:41:45.652 | LOCKSTEP | t=10.980 tx=550 rx=551 frame=550 dropped=0 invalid=0
+2026-08-25 17:41:52.146 | LOCKSTEP | t=11.980 tx=600 rx=601 frame=600 dropped=0 invalid=0
+2026-08-25 17:41:58.861 | LOCKSTEP | t=12.980 tx=650 rx=651 frame=650 dropped=0 invalid=0
+2026-08-25 17:42:04.931 | LOCKSTEP | t=13.980 tx=700 rx=701 frame=700 dropped=0 invalid=0
+2026-08-25 17:42:11.028 | LOCKSTEP | t=14.980 tx=750 rx=751 frame=750 dropped=0 invalid=0
+2026-08-25 17:42:16.684 | LOCKSTEP | t=15.980 tx=800 rx=801 frame=800 dropped=0 invalid=0
+2026-08-25 17:42:23.333 | LOCKSTEP | t=16.980 tx=850 rx=851 frame=850 dropped=0 invalid=0
+2026-08-25 17:42:30.410 | LOCKSTEP | t=17.980 tx=900 rx=901 frame=900 dropped=0 invalid=0
+2026-08-25 17:42:36.307 | LOCKSTEP | t=18.980 tx=950 rx=951 frame=950 dropped=0 invalid=0
+2026-08-25 17:42:43.409 | LOCKSTEP | t=19.980 tx=1000 rx=1001 frame=1000 dropped=0 invalid=0
+2026-08-25 17:42:43.798 | MODE_GATE_ABORT_REQUESTED | t=20.020
+2026-08-25 17:42:51.305 | LOCKSTEP | t=20.980 tx=1050 rx=1051 frame=1050 dropped=0 invalid=0
+2026-08-25 17:42:56.900 | LOCKSTEP | t=21.980 tx=1100 rx=1101 frame=1100 dropped=0 invalid=0
+2026-08-25 17:42:57.152 | STATE | RUNNING -> STOPPING | Bridge delete requested
+2026-08-25 17:42:57.358 | ADAPTER_CLOSED | tx=1101 rx=1102 dropped=0 invalid=0

@@ -1,0 +1,10 @@
+{
+  "axis": "roll",
+  "status": "FAIL",
+  "failure_reason": "LOG_MISSING",
+  "completion_class": "INCOMPLETE",
+  "detail": "ATRP CSV is absent.",
+  "atrp_rows": 0,
+  "effective_excitation_count": 0,
+  "finished_message_observed": false
+}

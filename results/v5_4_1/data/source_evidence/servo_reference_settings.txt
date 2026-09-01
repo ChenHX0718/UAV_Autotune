@@ -1,0 +1,23 @@
+REFERENCE_SERVO = Hitec HS-225BB
+
+PWM trim       = 1500 us
+PWM min        = 900 us
+PWM max        = 2100 us
+
+PWM-angle gain = 0.1 deg/us
+
+Deadband       = 5 us
+               ≈ 0.5 deg
+
+Delay          = 0.004 s
+
+First-order τ  = 0.035 s
+
+Rate limit     = 370 deg/s
+
+Servo limit    = ±60 deg
+
+PWM rate       = 50 Hz
+
+Backlash       = 0 deg      # V1先关闭
+# 后期可设置约0.5 deg

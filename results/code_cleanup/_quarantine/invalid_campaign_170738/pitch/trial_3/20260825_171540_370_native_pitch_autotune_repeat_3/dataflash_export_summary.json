@@ -1,0 +1,19 @@
+{
+  "source": "/mnt/e/\u52a8\u529b\u5b66\u642d\u5efa/\u6210\u54c1/UAV_Autotune_v5_4_1_Validation_Fix/results/v5_4_1/campaigns/20260825_170738_275_repeatability_level2/pitch/trial_3/20260825_171540_370_native_pitch_autotune_repeat_3/logs/00000001.BIN",
+  "message_counts": {
+    "ATT": 1986,
+    "RCIN": 1985,
+    "RCOU": 1985,
+    "PIDR": 1986,
+    "PIDP": 1986,
+    "PIDY": 1986,
+    "PARM": 1357,
+    "MODE": 1,
+    "CTUN": 1985,
+    "NTUN": 1985,
+    "VER": 1,
+    "MSG": 22,
+    "EV": 1
+  },
+  "export_pass": true
+}

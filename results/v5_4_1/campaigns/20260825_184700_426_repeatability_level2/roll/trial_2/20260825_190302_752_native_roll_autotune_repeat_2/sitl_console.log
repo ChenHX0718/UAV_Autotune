@@ -1,0 +1,158 @@
+Setting SIM_SPEEDUP=4.000000
+Setting SIM_RATE_HZ=50.000000
+Starting SITL: JSON
+Home: 39.904200 116.407400 alt=120.000000m hdg=0.000000
+JSON control interface set to 172.26.48.1:9002
+Starting sketch 'ArduPlane'
+Starting SITL input
+Using Irlock at port : 9005
+UDP connection 172.26.48.1:14550
+Loaded defaults from /mnt/e/动力学搭建/成品/UAV_Autotune_v5_4_1_Validation_Fix/results/v5_4_1/campaigns/20260825_184700_426_repeatability_level2/roll/trial_2/20260825_190302_752_native_roll_autotune_repeat_2/parameter_snapshot.param
+No JSON sensor message received, resending servos
+No JSON sensor message received, resending servos
+No JSON sensor message received, resending servos
+No JSON sensor message received, resending servos
+No JSON sensor message received, resending servos
+No JSON sensor message received, resending servos
+No JSON sensor message received, resending servos
+No JSON sensor message received, resending servos
+No JSON sensor message received, resending servos
+No JSON sensor message received, resending servos
+No JSON sensor message received, resending servos
+No JSON sensor message received, resending servos
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	attitude
+	quaternion
+	velocity
+	velocity_wind
+	airspeed
+	no_time_sync
+	no_lockstep
+	rc: rc_1
+	rc: rc_2
+	rc: rc_3
+	rc: rc_4
+	rc: rc_5
+	rc: rc_6
+	rc: rc_7
+	rc: rc_8
+
+UDP connection 172.26.48.1:14551
+UDP connection 127.0.0.1:14552
+validate_structures:538: Validating structures
+Loaded defaults from /mnt/e/动力学搭建/成品/UAV_Autotune_v5_4_1_Validation_Fix/results/v5_4_1/campaigns/20260825_184700_426_repeatability_level2/roll/trial_2/20260825_190302_752_native_roll_autotune_repeat_2/parameter_snapshot.param
+start:136: START FF -> 0.300
+
+update:452: FPID=(0.336, 0.029, 0.029, 0.001) Dmod=0.00
+
+update:452: FPID=(0.376, 0.029, 0.029, 0.001) Dmod=1.00
+
+update:452: FPID=(0.421, 0.029, 0.029, 0.001) Dmod=1.00
+
+update:452: FPID=(0.472, 0.015, 0.015, 0.001) Dmod=1.00
+
+update:452: FPID=(0.500, 0.015, 0.015, 0.002) Dmod=1.00
+
+update:452: FPID=(0.560, 0.015, 0.015, 0.002) Dmod=1.00
+
+update:452: FPID=(0.551, 0.015, 0.015, 0.003) Dmod=1.00
+
+update:452: FPID=(0.617, 0.015, 0.015, 0.004) Dmod=1.00
+
+update:452: FPID=(0.559, 0.015, 0.015, 0.005) Dmod=1.00
+
+update:452: FPID=(0.626, 0.015, 0.015, 0.007) Dmod=1.00
+
+update:452: FPID=(0.563, 0.015, 0.015, 0.009) Dmod=1.00
+
+update:452: FPID=(0.631, 0.015, 0.015, 0.011) Dmod=1.00
+
+update:452: FPID=(0.578, 0.015, 0.015, 0.015) Dmod=1.00
+
+update:452: FPID=(0.647, 0.015, 0.015, 0.019) Dmod=1.00
+
+update:452: FPID=(0.578, 0.015, 0.015, 0.025) Dmod=1.00
+
+update:452: FPID=(0.648, 0.015, 0.015, 0.033) Dmod=1.00
+
+update:452: FPID=(0.583, 0.015, 0.015, 0.042) Dmod=1.00
+
+update:452: FPID=(0.653, 0.015, 0.015, 0.055) Dmod=1.00
+
+update:452: FPID=(0.604, 0.015, 0.015, 0.072) Dmod=1.00
+
+update:452: FPID=(0.676, 0.015, 0.015, 0.093) Dmod=1.00
+
+update:452: FPID=(0.656, 0.015, 0.015, 0.121) Dmod=1.00
+
+update:452: FPID=(0.677, 0.015, 0.015, 0.157) Dmod=1.00
+
+update:452: FPID=(0.677, 0.015, 0.015, 0.205) Dmod=1.00
+
+update:452: FPID=(0.690, 0.015, 0.015, 0.266) Dmod=1.00
+
+update:452: FPID=(0.690, 0.015, 0.015, 0.346) Dmod=1.00
+
+update:452: FPID=(0.760, 0.015, 0.015, 0.104) Dmod=0.73
+
+update:452: FPID=(0.690, 0.019, 0.019, 0.104) Dmod=1.00
+
+update:452: FPID=(0.723, 0.025, 0.025, 0.104) Dmod=1.00
+
+update:452: FPID=(0.690, 0.032, 0.032, 0.104) Dmod=1.00
+
+update:452: FPID=(0.717, 0.042, 0.042, 0.104) Dmod=1.00
+
+update:452: FPID=(0.690, 0.055, 0.055, 0.104) Dmod=1.00
+
+update:452: FPID=(0.695, 0.071, 0.071, 0.104) Dmod=1.00
+
+update:452: FPID=(0.690, 0.092, 0.092, 0.104) Dmod=1.00
+
+update:452: FPID=(0.695, 0.120, 0.120, 0.104) Dmod=1.00
+
+update:452: FPID=(0.690, 0.156, 0.156, 0.104) Dmod=1.00
+
+update:452: FPID=(0.690, 0.203, 0.203, 0.104) Dmod=1.00
+
+update:452: FPID=(0.682, 0.264, 0.264, 0.104) Dmod=1.00
+
+update:452: FPID=(0.682, 0.343, 0.343, 0.104) Dmod=1.00
+
+update:452: FPID=(0.677, 0.445, 0.445, 0.104) Dmod=1.00
+
+update:452: FPID=(0.682, 0.579, 0.579, 0.104) Dmod=1.00
+
+update:452: FPID=(0.677, 0.753, 0.677, 0.104) Dmod=1.00
+
+update:452: FPID=(0.682, 0.979, 0.682, 0.104) Dmod=1.00
+
+update:452: FPID=(0.682, 1.272, 0.682, 0.104) Dmod=1.00
+
+update:452: FPID=(0.690, 1.654, 0.690, 0.104) Dmod=1.00
+
+update:452: FPID=(0.690, 2.150, 0.690, 0.104) Dmod=1.00
+
+update:452: FPID=(0.743, 2.795, 0.743, 0.104) Dmod=1.00
+
+update:452: FPID=(0.743, 0.978, 0.743, 0.104) Dmod=0.56
+
+update:452: FPID=(0.743, 0.978, 0.743, 0.036) Dmod=0.53
+
+update:452: FPID=(0.723, 0.978, 0.723, 0.036) Dmod=1.00
+
+update:452: FPID=(0.723, 0.978, 0.723, 0.036) Dmod=1.00
+
+update:452: FPID=(0.702, 0.978, 0.702, 0.036) Dmod=1.00
+
+No JSON sensor message received, resending servos
+No JSON sensor message received, resending servos
+No JSON sensor message received, resending servos
+No JSON sensor message received, resending servos
+No JSON sensor message received, resending servos
+No JSON sensor message received, resending servos

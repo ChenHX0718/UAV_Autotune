@@ -1,0 +1,9 @@
+{
+  "failure_reason": "MODE_DROPOUT",
+  "detail": "HEARTBEAT_LOST_DURING_MODE_PERSISTENCE_MONITOR",
+  "detected_timestamp_utc": "2026-08-25T10:34:56.183317+00:00",
+  "simulation_time_s": 21.34,
+  "rc_command_action": "NEUTRAL",
+  "pass": false,
+  "completion_class": "FAILED_COMMUNICATION"
+}

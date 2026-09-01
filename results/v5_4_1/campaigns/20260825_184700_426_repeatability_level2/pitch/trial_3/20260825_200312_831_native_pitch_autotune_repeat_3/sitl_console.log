@@ -1,0 +1,106 @@
+Setting SIM_SPEEDUP=4.000000
+Setting SIM_RATE_HZ=50.000000
+Starting SITL: JSON
+Home: 39.904200 116.407400 alt=120.000000m hdg=0.000000
+JSON control interface set to 172.26.48.1:9002
+Starting sketch 'ArduPlane'
+Starting SITL input
+Using Irlock at port : 9005
+UDP connection 172.26.48.1:14550
+Loaded defaults from /mnt/e/动力学搭建/成品/UAV_Autotune_v5_4_1_Validation_Fix/results/v5_4_1/campaigns/20260825_184700_426_repeatability_level2/pitch/trial_3/20260825_200312_831_native_pitch_autotune_repeat_3/parameter_snapshot.param
+No JSON sensor message received, resending servos
+No JSON sensor message received, resending servos
+No JSON sensor message received, resending servos
+No JSON sensor message received, resending servos
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	attitude
+	quaternion
+	velocity
+	velocity_wind
+	airspeed
+	no_time_sync
+	no_lockstep
+	rc: rc_1
+	rc: rc_2
+	rc: rc_3
+	rc: rc_4
+	rc: rc_5
+	rc: rc_6
+	rc: rc_7
+	rc: rc_8
+
+UDP connection 172.26.48.1:14551
+UDP connection 127.0.0.1:14552
+validate_structures:538: Validating structures
+Loaded defaults from /mnt/e/动力学搭建/成品/UAV_Autotune_v5_4_1_Validation_Fix/results/v5_4_1/campaigns/20260825_184700_426_repeatability_level2/pitch/trial_3/20260825_200312_831_native_pitch_autotune_repeat_3/parameter_snapshot.param
+start:136: START FF -> 0.795
+
+update:452: FPID=(0.890, 0.120, 0.890, 0.018) Dmod=0.00
+
+update:452: FPID=(0.997, 0.120, 0.997, 0.018) Dmod=1.00
+
+update:452: FPID=(1.019, 0.120, 1.019, 0.018) Dmod=1.00
+
+update:452: FPID=(1.019, 0.060, 1.019, 0.023) Dmod=1.00
+
+update:452: FPID=(1.019, 0.060, 1.019, 0.030) Dmod=1.00
+
+update:452: FPID=(1.019, 0.060, 1.019, 0.040) Dmod=1.00
+
+update:452: FPID=(0.982, 0.060, 0.982, 0.051) Dmod=1.00
+
+update:452: FPID=(1.019, 0.060, 1.019, 0.067) Dmod=1.00
+
+update:452: FPID=(0.982, 0.060, 0.982, 0.087) Dmod=1.00
+
+update:452: FPID=(1.019, 0.060, 1.019, 0.113) Dmod=1.00
+
+update:452: FPID=(0.982, 0.060, 0.982, 0.147) Dmod=1.00
+
+update:452: FPID=(0.982, 0.060, 0.982, 0.191) Dmod=1.00
+
+update:452: FPID=(0.953, 0.060, 0.953, 0.248) Dmod=1.00
+
+update:452: FPID=(0.982, 0.060, 0.982, 0.323) Dmod=1.00
+
+update:452: FPID=(0.982, 0.060, 0.982, 0.419) Dmod=1.00
+
+update:452: FPID=(1.019, 0.060, 1.019, 0.545) Dmod=1.00
+
+update:452: FPID=(1.019, 0.060, 1.019, 0.709) Dmod=1.00
+
+update:452: FPID=(1.122, 0.060, 1.122, 0.213) Dmod=0.55
+
+update:452: FPID=(1.019, 0.060, 1.019, 0.213) Dmod=0.26
+
+update:452: FPID=(1.019, 0.060, 1.019, 0.074) Dmod=0.66
+
+update:452: FPID=(1.019, 0.078, 1.019, 0.074) Dmod=1.00
+
+update:452: FPID=(1.021, 0.101, 1.021, 0.074) Dmod=1.00
+
+update:452: FPID=(1.021, 0.132, 1.021, 0.074) Dmod=1.00
+
+update:452: FPID=(1.021, 0.171, 1.021, 0.074) Dmod=1.00
+
+update:452: FPID=(1.021, 0.222, 1.021, 0.074) Dmod=1.00
+
+update:452: FPID=(1.021, 0.289, 1.021, 0.074) Dmod=1.00
+
+update:452: FPID=(1.021, 0.376, 1.021, 0.074) Dmod=1.00
+
+update:452: FPID=(1.021, 0.488, 1.021, 0.074) Dmod=1.00
+
+update:452: FPID=(1.019, 0.635, 1.019, 0.074) Dmod=1.00
+
+No JSON sensor message received, resending servos
+No JSON sensor message received, resending servos
+No JSON sensor message received, resending servos
+No JSON sensor message received, resending servos
+No JSON sensor message received, resending servos
+No JSON sensor message received, resending servos

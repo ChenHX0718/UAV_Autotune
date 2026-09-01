@@ -1,0 +1,191 @@
+{
+  "connection": "udpin:127.0.0.1:14552",
+  "entry_mode": "AUTOTUNE",
+  "started_timestamp_utc": "2026-08-25T11:03:16.764798+00:00",
+  "pass": true,
+  "failure_reason": "",
+  "state": "COMPLETE",
+  "sitl_ready": {
+    "pass": true,
+    "state": "SITL_READY",
+    "ready_timestamp_utc": "2026-08-25T11:03:53.778150+00:00",
+    "ready_simulation_s": 4.08,
+    "minimum_startup_guard_s": 4.0,
+    "heartbeat": {
+      "pass": true,
+      "required_count": 3,
+      "observed_count": 6
+    },
+    "fdm": {
+      "pass": true,
+      "required_consecutive_frames": 20,
+      "packet_rows_observed": 20,
+      "state_rows_observed": 20,
+      "timestamp_monotonic": true,
+      "frame_continuity": true,
+      "no_dropped_or_invalid_frames": true,
+      "state_reasonable": true,
+      "observed_simulation_s": 4.08,
+      "observed_frame_start": 186,
+      "observed_frame_end": 205,
+      "sensor_state_sources": [
+        "IMU_GYRO",
+        "IMU_ACCEL",
+        "ATTITUDE",
+        "AIRSPEED",
+        "POSITION",
+        "VELOCITY"
+      ],
+      "detail": "FDM_AND_SENSOR_STATE_STABLE"
+    },
+    "sensor_state": {
+      "pass": true,
+      "sources": [
+        "IMU_GYRO",
+        "IMU_ACCEL",
+        "ATTITUDE",
+        "AIRSPEED",
+        "POSITION",
+        "VELOCITY"
+      ],
+      "detail": "CONTINUOUS_FINITE_STATE_UPDATES"
+    },
+    "attitude_alignment": {
+      "pass": true,
+      "required_consecutive_messages": 5,
+      "observed_consecutive_messages": 19,
+      "roll_error_deg": 0.19209690929206655,
+      "pitch_error_deg": 3.1187766222446487,
+      "yaw_error_deg": 9.980502080333473,
+      "roll_pitch_tolerance_deg": 5.0,
+      "yaw_tolerance_deg": 15.0,
+      "detail": "FIRMWARE_ATTITUDE_ALIGNED_TO_TRUTH"
+    },
+    "parameter_query": {
+      "pass": true,
+      "parameter": "AUTOTUNE_LEVEL",
+      "value": 2.0,
+      "readback_timestamp_utc": "2026-08-25T11:03:53.738087+00:00"
+    }
+  },
+  "target_system": 1,
+  "target_component": 1,
+  "precondition": {
+    "requested_mode": "FBWA",
+    "requested_mode_number": 5,
+    "request_timestamp_utc": "2026-08-25T11:03:53.782231+00:00",
+    "ack_received": true,
+    "ack_result": 0,
+    "readback_mode_number": 5,
+    "readback_pass": true,
+    "pass": true,
+    "failure_reason": "",
+    "ack_timestamp_utc": "2026-08-25T11:03:54.160859+00:00",
+    "readback_timestamp_utc": "2026-08-25T11:03:54.160932+00:00",
+    "detail": "ACK_READBACK_AND_STABLE_HEARTBEATS_PASS",
+    "stable_confirmation": {
+      "pass": true,
+      "expected_mode": "FBWA",
+      "expected_mode_number": 5,
+      "required_heartbeat_count": 3,
+      "observed_consecutive_heartbeat_count": 3,
+      "required_stable_simulation_s": 1.0,
+      "observed_stable_simulation_s": 1.2400000000000002,
+      "ready_simulation_s": 5.36,
+      "confirmation_timestamp_utc": "2026-08-25T11:04:01.172475+00:00"
+    },
+    "ready_simulation_s": 5.36
+  },
+  "fbwa_ready": {
+    "pass": true,
+    "state": "FBWA_READY",
+    "ready_simulation_s": 5.36,
+    "ready_timestamp_utc": "2026-08-25T11:04:01.175380+00:00",
+    "mode_evidence": {
+      "requested_mode": "FBWA",
+      "requested_mode_number": 5,
+      "request_timestamp_utc": "2026-08-25T11:03:53.782231+00:00",
+      "ack_received": true,
+      "ack_result": 0,
+      "readback_mode_number": 5,
+      "readback_pass": true,
+      "pass": true,
+      "failure_reason": "",
+      "ack_timestamp_utc": "2026-08-25T11:03:54.160859+00:00",
+      "readback_timestamp_utc": "2026-08-25T11:03:54.160932+00:00",
+      "detail": "ACK_READBACK_AND_STABLE_HEARTBEATS_PASS",
+      "stable_confirmation": {
+        "pass": true,
+        "expected_mode": "FBWA",
+        "expected_mode_number": 5,
+        "required_heartbeat_count": 3,
+        "observed_consecutive_heartbeat_count": 3,
+        "required_stable_simulation_s": 1.0,
+        "observed_stable_simulation_s": 1.2400000000000002,
+        "ready_simulation_s": 5.36,
+        "confirmation_timestamp_utc": "2026-08-25T11:04:01.172475+00:00"
+      },
+      "ready_simulation_s": 5.36
+    }
+  },
+  "entry": {
+    "requested_mode": "AUTOTUNE",
+    "requested_mode_number": 8,
+    "request_timestamp_utc": "2026-08-25T11:04:01.183754+00:00",
+    "ack_received": true,
+    "ack_result": 0,
+    "readback_mode_number": 8,
+    "readback_pass": true,
+    "pass": true,
+    "failure_reason": "",
+    "ack_timestamp_utc": "2026-08-25T11:04:01.855977+00:00",
+    "readback_timestamp_utc": "2026-08-25T11:04:01.856036+00:00",
+    "detail": "ACK_READBACK_AND_STABLE_HEARTBEATS_PASS",
+    "stable_confirmation": {
+      "pass": true,
+      "expected_mode": "AUTOTUNE",
+      "expected_mode_number": 8,
+      "required_heartbeat_count": 3,
+      "observed_consecutive_heartbeat_count": 3,
+      "required_stable_simulation_s": 1.0,
+      "observed_stable_simulation_s": 1.8600000000000003,
+      "ready_simulation_s": 7.36,
+      "confirmation_timestamp_utc": "2026-08-25T11:04:11.634223+00:00"
+    },
+    "ready_simulation_s": 7.36
+  },
+  "mode_ready": {
+    "pass": true,
+    "state": "AUTOTUNE_READY",
+    "ready_simulation_s": 7.36,
+    "ready_timestamp_utc": "2026-08-25T11:04:11.638061+00:00",
+    "scoring_start_simulation_s": 8.0,
+    "scoring_end_simulation_s": 180.0
+  },
+  "live_mode_monitor": {
+    "pass": true,
+    "completion_class": "COMPLETE_OFFICIAL_FINISHED",
+    "finished_axis": "roll",
+    "finished_text": "Roll: Finished",
+    "first_finished_simulation_s": 155.58,
+    "first_finished_timestamp_utc": "2026-08-25T11:17:36.130939+00:00",
+    "excitation_action": "NEUTRAL_IMMEDIATELY",
+    "next_mode": "FBWA"
+  },
+  "exit": {
+    "requested_mode": "FBWA",
+    "requested_mode_number": 5,
+    "request_timestamp_utc": "2026-08-25T11:17:36.136989+00:00",
+    "ack_received": true,
+    "ack_result": 0,
+    "readback_mode_number": 5,
+    "readback_pass": true,
+    "pass": true,
+    "failure_reason": "",
+    "ack_timestamp_utc": "2026-08-25T11:17:36.283684+00:00",
+    "readback_timestamp_utc": "2026-08-25T11:17:36.284791+00:00",
+    "detail": "MODE_CHANGE_ACK_AND_READBACK_PASS"
+  },
+  "detail": "SITL_READY_FBWA_READY_AND_MODE_PERSISTENCE_PASS",
+  "completed_timestamp_utc": "2026-08-25T11:17:36.289235+00:00"
+}

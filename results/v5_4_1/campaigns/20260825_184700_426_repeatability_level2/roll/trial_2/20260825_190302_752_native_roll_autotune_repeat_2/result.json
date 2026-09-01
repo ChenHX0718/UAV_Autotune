@@ -1,0 +1,308 @@
+{
+  "overall": "PASS",
+  "failure_reason": "",
+  "run_directory": "E:\\动力学搭建\\成品\\UAV_Autotune_v5_4_1_Validation_Fix\\results\\v5_4_1\\campaigns\\20260825_184700_426_repeatability_level2\\roll\\trial_2\\20260825_190302_752_native_roll_autotune_repeat_2",
+  "scenario": "native_roll_autotune",
+  "axis": "roll",
+  "requested_mode": "AUTOTUNE",
+  "simulation_pass": true,
+  "simulation_error": "",
+  "dataflash_pass": true,
+  "dataflash_detail": "{\"source\": \"/mnt/e/\\u52a8\\u529b\\u5b66\\u642d\\u5efa/\\u6210\\u54c1/UAV_Autotune_v5_4_1_Validation_Fix/results/v5_4_1/campaigns/20260825_184700_426_repeatability_level2/roll/trial_2/20260825_190302_752_native_roll_autotune_repeat_2/logs/00000001.BIN\", \"message_counts\": {\"ATT\": 4493, \"RCIN\": 4492, \"RCOU\": 4492, \"PIDR\": 4492, \"PIDP\": 4492, \"PIDY\": 4492, \"PARM\": 1379, \"MODE\": 4, \"CTUN\": 4492, \"NTUN\": 4492, \"VER\": 1, \"ATRP\": 3730, \"MSG\": 28, \"EV\": 1}, \"export_pass\": true}\n",
+  "mode_pass": true,
+  "mode_session": {
+    "connection": "udpin:127.0.0.1:14552",
+    "entry_mode": "AUTOTUNE",
+    "started_timestamp_utc": "2026-08-25T11:03:16.764798+00:00",
+    "pass": true,
+    "failure_reason": "",
+    "state": "COMPLETE",
+    "sitl_ready": {
+      "pass": true,
+      "state": "SITL_READY",
+      "ready_timestamp_utc": "2026-08-25T11:03:53.778150+00:00",
+      "ready_simulation_s": 4.08,
+      "minimum_startup_guard_s": 4,
+      "heartbeat": {
+        "pass": true,
+        "required_count": 3,
+        "observed_count": 6
+      },
+      "fdm": {
+        "pass": true,
+        "required_consecutive_frames": 20,
+        "packet_rows_observed": 20,
+        "state_rows_observed": 20,
+        "timestamp_monotonic": true,
+        "frame_continuity": true,
+        "no_dropped_or_invalid_frames": true,
+        "state_reasonable": true,
+        "observed_simulation_s": 4.08,
+        "observed_frame_start": 186,
+        "observed_frame_end": 205,
+        "sensor_state_sources": [
+          "IMU_GYRO",
+          "IMU_ACCEL",
+          "ATTITUDE",
+          "AIRSPEED",
+          "POSITION",
+          "VELOCITY"
+        ],
+        "detail": "FDM_AND_SENSOR_STATE_STABLE"
+      },
+      "sensor_state": {
+        "pass": true,
+        "sources": [
+          "IMU_GYRO",
+          "IMU_ACCEL",
+          "ATTITUDE",
+          "AIRSPEED",
+          "POSITION",
+          "VELOCITY"
+        ],
+        "detail": "CONTINUOUS_FINITE_STATE_UPDATES"
+      },
+      "attitude_alignment": {
+        "pass": true,
+        "required_consecutive_messages": 5,
+        "observed_consecutive_messages": 19,
+        "roll_error_deg": 0.19209690929206655,
+        "pitch_error_deg": 3.1187766222446487,
+        "yaw_error_deg": 9.9805020803334727,
+        "roll_pitch_tolerance_deg": 5,
+        "yaw_tolerance_deg": 15,
+        "detail": "FIRMWARE_ATTITUDE_ALIGNED_TO_TRUTH"
+      },
+      "parameter_query": {
+        "pass": true,
+        "parameter": "AUTOTUNE_LEVEL",
+        "value": 2,
+        "readback_timestamp_utc": "2026-08-25T11:03:53.738087+00:00"
+      }
+    },
+    "target_system": 1,
+    "target_component": 1,
+    "precondition": {
+      "requested_mode": "FBWA",
+      "requested_mode_number": 5,
+      "request_timestamp_utc": "2026-08-25T11:03:53.782231+00:00",
+      "ack_received": true,
+      "ack_result": 0,
+      "readback_mode_number": 5,
+      "readback_pass": true,
+      "pass": true,
+      "failure_reason": "",
+      "ack_timestamp_utc": "2026-08-25T11:03:54.160859+00:00",
+      "readback_timestamp_utc": "2026-08-25T11:03:54.160932+00:00",
+      "detail": "ACK_READBACK_AND_STABLE_HEARTBEATS_PASS",
+      "stable_confirmation": {
+        "pass": true,
+        "expected_mode": "FBWA",
+        "expected_mode_number": 5,
+        "required_heartbeat_count": 3,
+        "observed_consecutive_heartbeat_count": 3,
+        "required_stable_simulation_s": 1,
+        "observed_stable_simulation_s": 1.2400000000000002,
+        "ready_simulation_s": 5.36,
+        "confirmation_timestamp_utc": "2026-08-25T11:04:01.172475+00:00"
+      },
+      "ready_simulation_s": 5.36
+    },
+    "fbwa_ready": {
+      "pass": true,
+      "state": "FBWA_READY",
+      "ready_simulation_s": 5.36,
+      "ready_timestamp_utc": "2026-08-25T11:04:01.175380+00:00",
+      "mode_evidence": {
+        "requested_mode": "FBWA",
+        "requested_mode_number": 5,
+        "request_timestamp_utc": "2026-08-25T11:03:53.782231+00:00",
+        "ack_received": true,
+        "ack_result": 0,
+        "readback_mode_number": 5,
+        "readback_pass": true,
+        "pass": true,
+        "failure_reason": "",
+        "ack_timestamp_utc": "2026-08-25T11:03:54.160859+00:00",
+        "readback_timestamp_utc": "2026-08-25T11:03:54.160932+00:00",
+        "detail": "ACK_READBACK_AND_STABLE_HEARTBEATS_PASS",
+        "stable_confirmation": {
+          "pass": true,
+          "expected_mode": "FBWA",
+          "expected_mode_number": 5,
+          "required_heartbeat_count": 3,
+          "observed_consecutive_heartbeat_count": 3,
+          "required_stable_simulation_s": 1,
+          "observed_stable_simulation_s": 1.2400000000000002,
+          "ready_simulation_s": 5.36,
+          "confirmation_timestamp_utc": "2026-08-25T11:04:01.172475+00:00"
+        },
+        "ready_simulation_s": 5.36
+      }
+    },
+    "entry": {
+      "requested_mode": "AUTOTUNE",
+      "requested_mode_number": 8,
+      "request_timestamp_utc": "2026-08-25T11:04:01.183754+00:00",
+      "ack_received": true,
+      "ack_result": 0,
+      "readback_mode_number": 8,
+      "readback_pass": true,
+      "pass": true,
+      "failure_reason": "",
+      "ack_timestamp_utc": "2026-08-25T11:04:01.855977+00:00",
+      "readback_timestamp_utc": "2026-08-25T11:04:01.856036+00:00",
+      "detail": "ACK_READBACK_AND_STABLE_HEARTBEATS_PASS",
+      "stable_confirmation": {
+        "pass": true,
+        "expected_mode": "AUTOTUNE",
+        "expected_mode_number": 8,
+        "required_heartbeat_count": 3,
+        "observed_consecutive_heartbeat_count": 3,
+        "required_stable_simulation_s": 1,
+        "observed_stable_simulation_s": 1.8600000000000003,
+        "ready_simulation_s": 7.36,
+        "confirmation_timestamp_utc": "2026-08-25T11:04:11.634223+00:00"
+      },
+      "ready_simulation_s": 7.36
+    },
+    "mode_ready": {
+      "pass": true,
+      "state": "AUTOTUNE_READY",
+      "ready_simulation_s": 7.36,
+      "ready_timestamp_utc": "2026-08-25T11:04:11.638061+00:00",
+      "scoring_start_simulation_s": 8,
+      "scoring_end_simulation_s": 180
+    },
+    "live_mode_monitor": {
+      "pass": true,
+      "completion_class": "COMPLETE_OFFICIAL_FINISHED",
+      "finished_axis": "roll",
+      "finished_text": "Roll: Finished",
+      "first_finished_simulation_s": 155.58,
+      "first_finished_timestamp_utc": "2026-08-25T11:17:36.130939+00:00",
+      "excitation_action": "NEUTRAL_IMMEDIATELY",
+      "next_mode": "FBWA"
+    },
+    "exit": {
+      "requested_mode": "FBWA",
+      "requested_mode_number": 5,
+      "request_timestamp_utc": "2026-08-25T11:17:36.136989+00:00",
+      "ack_received": true,
+      "ack_result": 0,
+      "readback_mode_number": 5,
+      "readback_pass": true,
+      "pass": true,
+      "failure_reason": "",
+      "ack_timestamp_utc": "2026-08-25T11:17:36.283684+00:00",
+      "readback_timestamp_utc": "2026-08-25T11:17:36.284791+00:00",
+      "detail": "MODE_CHANGE_ACK_AND_READBACK_PASS"
+    },
+    "detail": "SITL_READY_FBWA_READY_AND_MODE_PERSISTENCE_PASS",
+    "completed_timestamp_utc": "2026-08-25T11:17:36.289235+00:00"
+  },
+  "mode_scoring_audit": {
+    "pass": true,
+    "failure_reason": "",
+    "expected_mode": "AUTOTUNE",
+    "expected_mode_number": 8,
+    "scoring_start_time_s": 8,
+    "scoring_end_time_s": 155.58,
+    "coverage_tolerance": 0,
+    "fbwa_coverage": 0,
+    "manual_coverage": 0,
+    "other_mode_coverage": 0,
+    "detail": "DATAFLASH_SCORING_WINDOW_MODE_COVERAGE_PASS",
+    "expected_mode_coverage": 1,
+    "duration_expected_s": 147.58,
+    "duration_manual_s": 0,
+    "duration_other_s": 0,
+    "dataflash_end_time_s": 182.999833,
+    "observed_scoring_end_time_s": 155.58,
+    "complete_scoring_window": true
+  },
+  "packet_integrity": {
+    "pass": true,
+    "failure_reason": "",
+    "count": 9151,
+    "expected_minimum": 7320,
+    "nan_count": 0,
+    "inf_count": 0,
+    "dropped": 0,
+    "invalid": 0
+  },
+  "safety": {
+    "pass": true,
+    "failure_reason": "",
+    "checks": [
+      {
+        "Check": "finite_state",
+        "Pass": true,
+        "Observed": 0,
+        "Threshold": 0,
+        "Detail": "non-finite samples=0"
+      },
+      {
+        "Check": "roll",
+        "Pass": true,
+        "Observed": 11.8411569891039,
+        "Threshold": 45,
+        "Detail": "observed=11.841157 threshold=45"
+      },
+      {
+        "Check": "pitch",
+        "Pass": true,
+        "Observed": 4.69348359788571,
+        "Threshold": 25,
+        "Detail": "observed=4.6934836 threshold=25"
+      },
+      {
+        "Check": "airspeed",
+        "Pass": true,
+        "Observed": 12.5438896278047,
+        "Threshold": 8,
+        "Detail": "observed=12.5438896 threshold=8"
+      },
+      {
+        "Check": "aoa",
+        "Pass": true,
+        "Observed": 2.84730224280151,
+        "Threshold": 15,
+        "Detail": "observed=2.84730224 threshold=15"
+      },
+      {
+        "Check": "sideslip",
+        "Pass": true,
+        "Observed": 4.63214206822185,
+        "Threshold": 20,
+        "Detail": "observed=4.63214207 threshold=20"
+      },
+      {
+        "Check": "altitude",
+        "Pass": true,
+        "Observed": 50.5290460540264,
+        "Threshold": 50,
+        "Detail": "observed=50.5290461 threshold=50"
+      },
+      {
+        "Check": "angular_rate",
+        "Pass": true,
+        "Observed": 67.4662908735763,
+        "Threshold": 300,
+        "Detail": "observed=67.4662909 threshold=300"
+      },
+      {
+        "Check": "servo_saturation",
+        "Pass": true,
+        "Observed": 0,
+        "Threshold": 0.2,
+        "Detail": "observed=0 threshold=0.2"
+      }
+    ]
+  },
+  "atrp_present": true,
+  "parameter_readback_pass": true,
+  "online_safety_abort": false,
+  "mode_dropout": false,
+  "autotune_completion_class": "COMPLETE_OFFICIAL_FINISHED"
+}

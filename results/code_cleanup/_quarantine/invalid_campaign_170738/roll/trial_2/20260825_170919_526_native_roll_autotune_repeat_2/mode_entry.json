@@ -1,0 +1,23 @@
+{
+  "requested_mode": "AUTOTUNE",
+  "requested_mode_number": 8,
+  "request_timestamp_utc": "2026-08-25T09:09:59.697236+00:00",
+  "ack_received": true,
+  "ack_result": 0,
+  "readback_mode_number": 8,
+  "readback_pass": true,
+  "pass": false,
+  "failure_reason": "MODE_CHANGE_FAIL",
+  "ack_timestamp_utc": "2026-08-25T09:10:00.319466+00:00",
+  "readback_timestamp_utc": "2026-08-25T09:10:00.319521+00:00",
+  "detail": "MODE_REQUEST_OR_STABLE_CONFIRMATION_FAILED",
+  "stable_confirmation": {
+    "pass": false,
+    "failure_reason": "MODE_CHANGE_FAIL",
+    "detail": "CONSECUTIVE_MODE_HEARTBEAT_CONFIRMATION_FAILED",
+    "expected_mode": "AUTOTUNE",
+    "observed_consecutive_heartbeat_count": 2,
+    "unexpected_modes": [],
+    "observed_simulation_s": 7.26
+  }
+}

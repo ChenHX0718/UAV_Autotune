@@ -1,0 +1,6 @@
+trial,runDirectory,interfacePass,internalTargetDeg,servoLeftExcursionUs,surfaceLeftPeakDeg,rollPeakDeg,pitchPeakDeg,rmseDeg,objectiveTotal,classification
+1,E:\动力学搭建\成品\UAV_Autotune_v5_2_Interface_Audit_Autotune\results\20260822_014219_fbwa_roll_rc_positive_wsl,1,4.98999977111816,43,3.284125,5.63975523732507,12.6067715733834,1.16970553187252,0.572109170847698,reference
+2,E:\动力学搭建\成品\UAV_Autotune_v5_2_Interface_Audit_Autotune\results\20260822_014340_fbwa_roll_rc_positive_wsl,1,4.98999977111816,43,3.284125,5.63975523732507,12.6067715733834,1.16970553187252,0.572109170847698,bitwise identical
+3,E:\动力学搭建\成品\UAV_Autotune_v5_2_Interface_Audit_Autotune\results\20260822_014456_fbwa_roll_rc_positive_wsl,1,4.98999977111816,43,3.284125,5.63975523732507,12.6067715733834,1.16970553187252,0.572109170847698,bitwise identical
+4,E:\动力学搭建\成品\UAV_Autotune_v5_2_Interface_Audit_Autotune\results\20260822_014610_fbwa_roll_rc_positive_wsl,1,4.98999977111816,43,3.284125,5.63975523732507,12.6067715733834,1.16970553187252,0.572109170847698,bitwise identical
+5,E:\动力学搭建\成品\UAV_Autotune_v5_2_Interface_Audit_Autotune\results\20260822_014725_fbwa_roll_rc_positive_wsl,1,4.98999977111816,43,3.284125,5.63975523732507,12.6067715733834,1.16970553187252,0.572109170847698,bitwise identical

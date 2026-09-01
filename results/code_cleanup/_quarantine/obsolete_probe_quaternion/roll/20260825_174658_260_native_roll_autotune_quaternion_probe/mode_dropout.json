@@ -1,0 +1,7 @@
+{
+  "failure_reason": "STARTUP_TIMEOUT",
+  "detail": "SITL_READY_NOT_REACHED_BEFORE_TIMEOUT_OR_SCORING_WINDOW",
+  "detected_timestamp_utc": "2026-08-25T09:49:27.120681+00:00",
+  "simulation_time_s": 20.0,
+  "rc_command_action": "NEUTRAL"
+}

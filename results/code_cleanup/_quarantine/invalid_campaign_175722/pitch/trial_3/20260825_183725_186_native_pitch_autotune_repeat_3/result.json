@@ -1,0 +1,115 @@
+{
+  "overall": "FAIL",
+  "failure_reason": "MODE_CHANGE_FAIL",
+  "run_directory": "E:\\动力学搭建\\成品\\UAV_Autotune_v5_4_1_Validation_Fix\\results\\v5_4_1\\campaigns\\20260825_175722_539_repeatability_level2\\pitch\\trial_3\\20260825_183725_186_native_pitch_autotune_repeat_3",
+  "scenario": "native_pitch_autotune",
+  "axis": "pitch",
+  "requested_mode": "AUTOTUNE",
+  "simulation_pass": false,
+  "simulation_error": "错误使用 v53.runScenario (第 103 行)\n计算 '<a href=\"matlab:open_and_hilite_hyperlink ('UAV_Autotune_Model_4Axis/Autopilot_PID/Cascaded_PID','error')\">UAV_Autotune_Model_4Axis/Autopilot_PID/Cascaded_PID</a>' 中的 MATLAB S-Function 'uav_autopilot_sfunc' 的注册方法\n'Outputs' 时出错。以下是产生此错误的 MATLAB 调用堆栈(文件名和行号):\n ['E:\\动力学搭建\\成品\\UAV_Autotune_v5_4_1_Validation_Fix\\model\\V52ArduPilotJSONBridge.m'] [370]\n ['E:\\动力学搭建\\成品\\UAV_Autotune_v5_4_1_Validation_Fix\\model\\V52ArduPilotJSONBridge.m'] [110]\n ['E:\\动力学搭建\\成品\\UAV_Autotune_v5_4_1_Validation_Fix\\model\\ardupilot_sitl_controller.m'] [15]\n ['E:\\动力学搭建\\成品\\UAV_Autotune_v5_4_1_Validation_Fix\\model\\uav_autopilot_sfunc.m'] [54]\n ['D:\\Program\n Files\\MATLAB\\R2024b\\toolbox\\simulink\\simulationinput_desktop\\+Simulink\\+Simulation\\+internal\\DesktopSimHelper.p']\n [0]\n ['D:\\Program\n Files\\MATLAB\\R2024b\\toolbox\\simulink\\simulationinput_desktop\\+Simulink\\+Simulation\\+internal\\DesktopSimHelper.p']\n [0]\n ['D:\\Program Files\\MATLAB\\R2024b\\toolbox\\simulink\\simulationinput\\+Simulink\\SimulationInput.p'] [0]\n ['E:\\动力学搭建\\成品\\UAV_Autotune_v5_4_1_Validation_Fix\\matlab\\+v53\\runScenario.m'] [103]\n ['E:\\动力学搭建\\成品\\UAV_Autotune_v5_4_1_Validation_Fix\\run_v541_native_autotune_axis.m'] [27]\n ['E:\\动力学搭建\\成品\\UAV_Autotune_v5_4_1_Validation_Fix\\run_v541_autotune_repeatability.m'] [47]\n\n出错 run_v541_native_autotune_axis (第 27 行)\n    \"YAW_RATE_ENABLE\",0);\n    ^^^^^^^^^^^^^^^^^^^^^\n出错 run_v541_autotune_repeatability (第 47 行)\n            options.Level,axisName,trial);\n            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n原因:\n    错误使用 Simulink.Simulation.internal.DesktopSimHelper\n    Timed out waiting for a fresh ArduPlane frame on UDP 9002.\n    \n    出错 Simulink.Simulation.internal.DesktopSimHelper.sim\n    \n    出错 Simulink.SimulationInput/sim\n    \n    出错 v53.runScenario (第 103 行)\n                \"SolverType\",\"Fixed-step\",\"Solver\",\"ode4\", ...\n                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n    出错 run_v541_native_autotune_axis (第 27 行)\n        \"YAW_RATE_ENABLE\",0);\n        ^^^^^^^^^^^^^^^^^^^^^\n    出错 run_v541_autotune_repeatability (第 47 行)\n                options.Level,axisName,trial);\n                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^",
+  "dataflash_pass": false,
+  "dataflash_detail": "PowerShell script failed (E:\\动力学搭建\\成品\\UAV_Autotune_v5_4_1_Validation_Fix\\tools\\export_dataflash_wsl.ps1):\n#< CLIXML\n<Objs Version=\"1.1.0.1\" xmlns=\"http://schemas.microsoft.com/powershell/2004/04\"><S S=\"Error\">No DataFlash BIN log exists under E:\\动力学搭建\\成品\\UAV_Autotune_v5_4_1_Validation_Fix\\results\\v5_4_1\\campaigns\\202608_x000D__x000A_</S><S S=\"Error\">25_175722_539_repeatability_level2\\pitch\\trial_3\\20260825_183725_186_native_pitch_autotune_repeat_3\\logs._x000D__x000A_</S><S S=\"Error\">所在位置 E:\\动力学搭建\\成品\\UAV_Autotune_v5_4_1_Validation_Fix\\tools\\export_dataflash_wsl.ps1:12 字符: 18_x000D__x000A_</S><S S=\"Error\">+ ... not $bin) { throw \"No DataFlash BIN log exists under $RunDirectory\\lo ..._x000D__x000A_</S><S S=\"Error\">+                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~_x000D__x000A_</S><S S=\"Error\">    + CategoryInfo          : OperationStopped: (No DataFlash BI..._repeat_3\\logs.:String) [], RuntimeException_x000D__x000A_</S><S S=\"Error\">    + FullyQualifiedErrorId : No DataFlash BIN log exists under E:\\动力学搭建\\成品\\UAV_Autotune_v5_4_1_Validation_Fix\\r_x000D__x000A_</S><S S=\"Error\">esults    \\v5_4_1\\campaigns\\20260825_175722_539_repeatability_level2\\pitch\\trial_3\\20260825_183725_186_native_pitch_aut_x000D__x000A_</S><S S=\"Error\">otune    _repeat_3\\logs._x000D__x000A_</S><S S=\"Error\"> _x000D__x000A_</S></Objs>",
+  "mode_pass": false,
+  "mode_session": {
+    "pass": false,
+    "failure_reason": "MODE_CHANGE_FAIL",
+    "detail": "MODE_SESSION_EVIDENCE_MISSING"
+  },
+  "mode_scoring_audit": {
+    "pass": false,
+    "failure_reason": "MODE_CHANGE_FAIL",
+    "expected_mode": "AUTOTUNE",
+    "expected_mode_number": 8,
+    "scoring_start_time_s": 8,
+    "scoring_end_time_s": 353,
+    "coverage_tolerance": 0,
+    "fbwa_coverage": 0,
+    "manual_coverage": 0,
+    "other_mode_coverage": 0,
+    "detail": "MODE_LOG_MISSING_OR_SCORING_WINDOW_UNKNOWN"
+  },
+  "packet_integrity": {
+    "pass": false,
+    "failure_reason": "INTERFACE_FAIL",
+    "count": 96,
+    "expected_minimum": 14240,
+    "nan_count": 0,
+    "inf_count": 0,
+    "dropped": 0,
+    "invalid": 0
+  },
+  "safety": {
+    "pass": false,
+    "failure_reason": "LOG_MISSING",
+    "checks": [
+      {
+        "checks": "finite_state",
+        "pass": false,
+        "observed": null,
+        "threshold": null,
+        "detail": ""
+      },
+      {
+        "checks": "roll",
+        "pass": false,
+        "observed": null,
+        "threshold": null,
+        "detail": ""
+      },
+      {
+        "checks": "pitch",
+        "pass": false,
+        "observed": null,
+        "threshold": null,
+        "detail": ""
+      },
+      {
+        "checks": "airspeed",
+        "pass": false,
+        "observed": null,
+        "threshold": null,
+        "detail": ""
+      },
+      {
+        "checks": "aoa",
+        "pass": false,
+        "observed": null,
+        "threshold": null,
+        "detail": ""
+      },
+      {
+        "checks": "sideslip",
+        "pass": false,
+        "observed": null,
+        "threshold": null,
+        "detail": ""
+      },
+      {
+        "checks": "altitude",
+        "pass": false,
+        "observed": null,
+        "threshold": null,
+        "detail": ""
+      },
+      {
+        "checks": "angular_rate",
+        "pass": false,
+        "observed": null,
+        "threshold": null,
+        "detail": ""
+      },
+      {
+        "checks": "servo_saturation",
+        "pass": false,
+        "observed": null,
+        "threshold": null,
+        "detail": ""
+      }
+    ]
+  },
+  "atrp_present": false,
+  "parameter_readback_pass": false,
+  "online_safety_abort": false,
+  "mode_dropout": false,
+  "autotune_completion_class": "FAILED_OTHER"
+}

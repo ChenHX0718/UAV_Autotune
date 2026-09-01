@@ -1,0 +1,7 @@
+{
+  "failure_reason": "MODE_CHANGE_FAIL",
+  "detail": "ENTRY_MODE_STABLE_CONFIRMATION_FAILED",
+  "detected_timestamp_utc": "2026-08-25T09:14:02.317410+00:00",
+  "simulation_time_s": 7.26,
+  "rc_command_action": "NEUTRAL"
+}

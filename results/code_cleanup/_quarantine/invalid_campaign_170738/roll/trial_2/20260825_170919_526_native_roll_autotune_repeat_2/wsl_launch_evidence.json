@@ -1,0 +1,1 @@
+{"backend":"WSL2","firmware_source":"source_build","distro":"Ubuntu-24.04","ubuntu_version":"24.04","user":"uavdev","commit":"1511f27194f1dcc3728270883047bdf022b3fd53","binary":"/home/uavdev/ardupilot-v5_1/build/sitl/bin/arduplane","binary_sha256":"3fe8ce8c37cb4e5d025212b50b225aaac17638fb9d67a66d61d5cc4be05e24b3","started_utc":"2026-08-25T09:09:28Z"}

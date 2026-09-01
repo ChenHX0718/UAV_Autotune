@@ -1,0 +1,20 @@
+{
+  "source": "/mnt/e/\u52a8\u529b\u5b66\u642d\u5efa/\u6210\u54c1/UAV_Autotune_v5_4_1_Validation_Fix/results/v5_4_1/campaigns/20260825_175722_539_repeatability_level2/roll/trial_2/20260825_181154_246_native_roll_autotune_repeat_2/logs/00000001.BIN",
+  "message_counts": {
+    "ATT": 599,
+    "RCIN": 598,
+    "RCOU": 598,
+    "PIDR": 599,
+    "PIDP": 599,
+    "PIDY": 599,
+    "PARM": 1353,
+    "MODE": 4,
+    "CTUN": 598,
+    "NTUN": 598,
+    "VER": 1,
+    "ATRP": 471,
+    "MSG": 24,
+    "EV": 1
+  },
+  "export_pass": true
+}

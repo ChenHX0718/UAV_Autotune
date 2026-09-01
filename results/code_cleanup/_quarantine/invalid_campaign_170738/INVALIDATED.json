@@ -1,0 +1,6 @@
+{
+  "status": "INVALIDATED",
+  "reason": "Mixed pre-fix and post-fix configuration; not eligible for tuning or validation conclusions.",
+  "use_for_autotune_conclusion": false,
+  "evidence_retained": true
+}

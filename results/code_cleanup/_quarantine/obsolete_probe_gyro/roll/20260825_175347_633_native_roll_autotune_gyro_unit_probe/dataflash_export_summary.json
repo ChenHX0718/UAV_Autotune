@@ -1,0 +1,20 @@
+{
+  "source": "/mnt/e/\u52a8\u529b\u5b66\u642d\u5efa/\u6210\u54c1/UAV_Autotune_v5_4_1_Validation_Fix/results/v5_4_1/campaigns/20260825_175346_934_gyro_unit_probe/roll/20260825_175347_633_native_roll_autotune_gyro_unit_probe/logs/00000001.BIN",
+  "message_counts": {
+    "ATT": 642,
+    "RCIN": 642,
+    "RCOU": 642,
+    "PIDR": 642,
+    "PIDP": 642,
+    "PIDY": 642,
+    "PARM": 1353,
+    "MODE": 4,
+    "CTUN": 642,
+    "NTUN": 642,
+    "VER": 1,
+    "ATRP": 491,
+    "MSG": 24,
+    "EV": 1
+  },
+  "export_pass": true
+}

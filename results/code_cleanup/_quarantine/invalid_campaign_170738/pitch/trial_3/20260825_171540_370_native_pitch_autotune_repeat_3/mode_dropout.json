@@ -1,0 +1,6 @@
+{
+  "failure_reason": "MODE_SESSION_PROCESS_EXITED",
+  "detail": "Invalid mixed-configuration probe aborted after the background mode gate exited before readiness.",
+  "rc_command_action": "NEUTRAL",
+  "completion_class": "FAILED_COMMUNICATION"
+}

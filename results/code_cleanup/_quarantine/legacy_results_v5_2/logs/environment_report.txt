@@ -1,0 +1,70 @@
+V5.2 environment report
+Generated: 2026-08-22 02:17:14 *
+Project: E:\动力学搭建\成品\UAV_Autotune_v5_2_Interface_Audit_Autotune
+ArduPilot tag: Plane-4.7.0
+ArduPilot commit: 1511f27194f1dcc3728270883047bdf022b3fd53
+Build target: sitl/plane
+
+PROJECT_ROOT             PASS     E:\动力学搭建\成品\UAV_Autotune_v5_2_Interface_Audit_Autotune
+TRUTH_MODEL              PASS     E:\动力学搭建\成品\UAV_Autotune_v5_2_Interface_Audit_Autotune\model\UAV_Autotune_Model_4Axis.slx
+MATLAB_RELEASE           PASS     2024b / 24.2.0.2712019 (R2024b)
+SIMULINK                 PASS     5G Toolbox, AUTOSAR Blockset, Aerospace Blockset, Aerospace Toolbox, Antenna Toolbox, Audio Toolbox, Automated Driving Toolbox, Bioinformatics Toolbox, Bluetooth Toolbox, C2000 Microcontroller Blockset, Communications Toolbox, Computer Vision Toolbox, Control System Toolbox, Curve Fitting Toolbox, DDS Blockset, DSP HDL Toolbox, DSP System Toolbox, Data Acquisition Toolbox, Database Toolbox, Datafeed Toolbox, Deep Learning HDL Toolbox, Deep Learning Toolbox, Econometrics Toolbox, Embedded Coder, Filter Design HDL Coder, Financial Instruments Toolbox, Financial Toolbox, Fixed-Point Designer, Fuzzy Logic Toolbox, GPU Coder, Global Optimization Toolbox, HDL Coder, HDL Verifier, Image Acquisition Toolbox, Image Processing Toolbox, Industrial Communication Toolbox, Instrument Control Toolbox, LTE Toolbox, Lidar Toolbox, MATLAB, MATLAB Coder, MATLAB Compiler, MATLAB Compiler SDK, MATLAB MCP Server Toolbox, MATLAB Report Generator, MATLAB Test, Mapping Toolbox, Medical Imaging Toolbox, Mixed-Signal Blockset, Model Predictive Control Toolbox, Model-Based Calibration Toolbox, Motor Control Blockset, Navigation Toolbox, Optimization Toolbox, Parallel Computing Toolbox, Partial Differential Equation Toolbox, Phased Array System Toolbox, Powertrain Blockset, Predictive Maintenance Toolbox, RF Blockset, RF PCB Toolbox, RF Toolbox, ROS Toolbox, Radar Toolbox, Reinforcement Learning Toolbox, Requirements Toolbox, Risk Management Toolbox, Robotics System Toolbox, Robust Control Toolbox, Satellite Communications Toolbox, Sensor Fusion and Tracking Toolbox, SerDes Toolbox, Signal Integrity Toolbox, Signal Processing Toolbox, SimBiology, SimEvents, Simscape, Simscape Battery, Simscape Driveline, Simscape Electrical, Simscape Fluids, Simscape Multibody, Simulink, Simulink 3D Animation, Simulink Check, Simulink Code Inspector, Simulink Coder, Simulink Compiler, Simulink Control Design, Simulink Coverage, Simulink Design Optimization, Simulink Design Verifier, Simulink Desktop Real-Time, Simulink Fault Analyzer, Simulink PLC Coder, Simulink Real-Time, Simulink Report Generator, Simulink Test, SoC Blockset, Spreadsheet Link, Stateflow, Statistics and Machine Learning Toolbox, Symbolic Math Toolbox, System Composer, System Identification Toolbox, Text Analytics Toolbox, UAV Toolbox, Vehicle Dynamics Blockset, Vehicle Network Toolbox, Vision HDL Toolbox, WLAN Toolbox, Wavelet Toolbox, Wireless HDL Toolbox, Wireless Testbench
+INSTRUMENT_CONTROL       PASS     udpport is required
+AEROSPACE_BLOCKSET       PASS     6DOF and atmosphere blocks are required
+JSON_UDP_PORT            PASS     UDP 9002
+WSL                      PASS     DISTRO=Ubuntu-24.04
+WSL_VERSION=2
+USER=uavdev
+OS_ID=ubuntu
+OS_VERSION_ID=24.04
+OS_PRETTY_NAME=Ubuntu 24.04 LTS
+KERNEL=5.10.16.3-microsoft-standard-WSL2
+PYTHON=Python 3.12.3
+GCC=gcc (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0
+GIT=git version 2.43.0
+RELEASE_UPGRADE=never
+ARDUPILOT_COMMIT=1511f27194f1dcc3728270883047bdf022b3fd53
+ARDUPILOT_TAGS=APMrover2-stable,AP_Periph-4.7.0,AP_Periph-stable,AntennaTracker-stable,ArduCopter-stable,ArduCopter-stable-heli,ArduPlane-stable,ArduSub-stable,Copter-4.7.0,Plane-4.7.0,Rover-4.7.0,Sub-4.7.0,Tracker-4.7.0
+BUILD_TARGET=sitl/plane
+BINARY=/home/uavdev/ardupilot-v5_1/build/sitl/bin/arduplane
+BINARY_SHA256=3fe8ce8c37cb4e5d025212b50b225aaac17638fb9d67a66d61d5cc4be05e24b3
+BUILD_TIMESTAMP_UTC=2026-08-21T09:12:05Z
+VENV=/home/uavdev/venv-ardupilot
+
+LINUX_TOOLCHAIN          PASS     DISTRO=Ubuntu-24.04
+WSL_VERSION=2
+USER=uavdev
+OS_ID=ubuntu
+OS_VERSION_ID=24.04
+OS_PRETTY_NAME=Ubuntu 24.04 LTS
+KERNEL=5.10.16.3-microsoft-standard-WSL2
+PYTHON=Python 3.12.3
+GCC=gcc (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0
+GIT=git version 2.43.0
+RELEASE_UPGRADE=never
+ARDUPILOT_COMMIT=1511f27194f1dcc3728270883047bdf022b3fd53
+ARDUPILOT_TAGS=APMrover2-stable,AP_Periph-4.7.0,AP_Periph-stable,AntennaTracker-stable,ArduCopter-stable,ArduCopter-stable-heli,ArduPlane-stable,ArduSub-stable,Copter-4.7.0,Plane-4.7.0,Rover-4.7.0,Sub-4.7.0,Tracker-4.7.0
+BUILD_TARGET=sitl/plane
+BINARY=/home/uavdev/ardupilot-v5_1/build/sitl/bin/arduplane
+BINARY_SHA256=3fe8ce8c37cb4e5d025212b50b225aaac17638fb9d67a66d61d5cc4be05e24b3
+BUILD_TIMESTAMP_UTC=2026-08-21T09:12:05Z
+VENV=/home/uavdev/venv-ardupilot
+
+ARDUPILOT_COMMIT         PASS     DISTRO=Ubuntu-24.04
+WSL_VERSION=2
+USER=uavdev
+OS_ID=ubuntu
+OS_VERSION_ID=24.04
+OS_PRETTY_NAME=Ubuntu 24.04 LTS
+KERNEL=5.10.16.3-microsoft-standard-WSL2
+PYTHON=Python 3.12.3
+GCC=gcc (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0
+GIT=git version 2.43.0
+RELEASE_UPGRADE=never
+ARDUPILOT_COMMIT=1511f27194f1dcc3728270883047bdf022b3fd53
+ARDUPILOT_TAGS=APMrover2-stable,AP_Periph-4.7.0,AP_Periph-stable,AntennaTracker-stable,ArduCopter-stable,ArduCopter-stable-heli,ArduPlane-stable,ArduSub-stable,Copter-4.7.0,Plane-4.7.0,Rover-4.7.0,Sub-4.7.0,Tracker-4.7.0
+BUILD_TARGET=sitl/plane
+BINARY=/home/uavdev/ardupilot-v5_1/build/sitl/bin/arduplane
+BINARY_SHA256=3fe8ce8c37cb4e5d025212b50b225aaac17638fb9d67a66d61d5cc4be05e24b3
+BUILD_TIMESTAMP_UTC=2026-08-21T09:12:05Z
+VENV=/home/uavdev/venv-ardupilot

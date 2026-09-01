@@ -1,0 +1,243 @@
+{
+  "status": "FAIL",
+  "campaign_id": "20260825_170738_275_repeatability_level2",
+  "campaign_root": "E:\\动力学搭建\\成品\\UAV_Autotune_v5_4_1_Validation_Fix\\results\\v5_4_1\\autotune_repeatability\\20260825_170738_275_repeatability_level2",
+  "level": 2,
+  "count": 3,
+  "max_cv": 0.15,
+  "actuator_fidelity": "ENGINEERING",
+  "sensor_fidelity": "ENGINEERING",
+  "random_seed": 42,
+  "roll": {
+    "status": "FAIL",
+    "complete_runs": 0,
+    "requested_runs": 3,
+    "runs": [
+      {
+        "Trial": 1,
+        "Axis": "roll",
+        "Level": 2,
+        "Status": "FAIL",
+        "FailureReason": "MODE_DROPOUT",
+        "CompletionClass": "FAILED_OTHER",
+        "FirstFinishedTime_s": null,
+        "RunDirectory": "E:\\动力学搭建\\成品\\UAV_Autotune_v5_4_1_Validation_Fix\\results\\v5_4_1\\campaigns\\20260825_170738_275_repeatability_level2\\roll\\trial_1\\20260825_170739_632_native_roll_autotune_repeat_1",
+        "ParameterFile": "",
+        "RandomSeed": 42,
+        "ActuatorFidelity": "ENGINEERING",
+        "SensorFidelity": "ENGINEERING"
+      },
+      {
+        "Trial": 2,
+        "Axis": "roll",
+        "Level": 2,
+        "Status": "FAIL",
+        "FailureReason": "MODE_DROPOUT",
+        "CompletionClass": "FAILED_OTHER",
+        "FirstFinishedTime_s": null,
+        "RunDirectory": "E:\\动力学搭建\\成品\\UAV_Autotune_v5_4_1_Validation_Fix\\results\\v5_4_1\\campaigns\\20260825_170738_275_repeatability_level2\\roll\\trial_2\\20260825_170919_526_native_roll_autotune_repeat_2",
+        "ParameterFile": "",
+        "RandomSeed": 42,
+        "ActuatorFidelity": "ENGINEERING",
+        "SensorFidelity": "ENGINEERING"
+      },
+      {
+        "Trial": 3,
+        "Axis": "roll",
+        "Level": 2,
+        "Status": "FAIL",
+        "FailureReason": "MODE_DROPOUT",
+        "CompletionClass": "FAILED_OTHER",
+        "FirstFinishedTime_s": null,
+        "RunDirectory": "E:\\动力学搭建\\成品\\UAV_Autotune_v5_4_1_Validation_Fix\\results\\v5_4_1\\campaigns\\20260825_170738_275_repeatability_level2\\roll\\trial_3\\20260825_171050_713_native_roll_autotune_repeat_3",
+        "ParameterFile": "",
+        "RandomSeed": 42,
+        "ActuatorFidelity": "ENGINEERING",
+        "SensorFidelity": "ENGINEERING"
+      }
+    ],
+    "statistics": [
+      {
+        "Parameter": "RLL_RATE_FF",
+        "N": 0,
+        "Mean": null,
+        "Std": null,
+        "CV": null,
+        "Minimum": null,
+        "Maximum": null,
+        "Pass": false
+      },
+      {
+        "Parameter": "RLL_RATE_P",
+        "N": 0,
+        "Mean": null,
+        "Std": null,
+        "CV": null,
+        "Minimum": null,
+        "Maximum": null,
+        "Pass": false
+      },
+      {
+        "Parameter": "RLL_RATE_I",
+        "N": 0,
+        "Mean": null,
+        "Std": null,
+        "CV": null,
+        "Minimum": null,
+        "Maximum": null,
+        "Pass": false
+      },
+      {
+        "Parameter": "RLL_RATE_D",
+        "N": 0,
+        "Mean": null,
+        "Std": null,
+        "CV": null,
+        "Minimum": null,
+        "Maximum": null,
+        "Pass": false
+      },
+      {
+        "Parameter": "RLL2SRV_RMAX",
+        "N": 0,
+        "Mean": null,
+        "Std": null,
+        "CV": null,
+        "Minimum": null,
+        "Maximum": null,
+        "Pass": false
+      },
+      {
+        "Parameter": "RLL2SRV_TCONST",
+        "N": 0,
+        "Mean": null,
+        "Std": null,
+        "CV": null,
+        "Minimum": null,
+        "Maximum": null,
+        "Pass": false
+      }
+    ]
+  },
+  "pitch": {
+    "status": "FAIL",
+    "complete_runs": 0,
+    "requested_runs": 3,
+    "runs": [
+      {
+        "Trial": 1,
+        "Axis": "pitch",
+        "Level": 2,
+        "Status": "FAIL",
+        "FailureReason": "MODE_DROPOUT",
+        "CompletionClass": "FAILED_OTHER",
+        "FirstFinishedTime_s": null,
+        "RunDirectory": "E:\\动力学搭建\\成品\\UAV_Autotune_v5_4_1_Validation_Fix\\results\\v5_4_1\\campaigns\\20260825_170738_275_repeatability_level2\\pitch\\trial_1\\20260825_171224_752_native_pitch_autotune_repeat_1",
+        "ParameterFile": "",
+        "RandomSeed": 42,
+        "ActuatorFidelity": "ENGINEERING",
+        "SensorFidelity": "ENGINEERING"
+      },
+      {
+        "Trial": 2,
+        "Axis": "pitch",
+        "Level": 2,
+        "Status": "FAIL",
+        "FailureReason": "MODE_DROPOUT",
+        "CompletionClass": "FAILED_OTHER",
+        "FirstFinishedTime_s": null,
+        "RunDirectory": "E:\\动力学搭建\\成品\\UAV_Autotune_v5_4_1_Validation_Fix\\results\\v5_4_1\\campaigns\\20260825_170738_275_repeatability_level2\\pitch\\trial_2\\20260825_171408_150_native_pitch_autotune_repeat_2",
+        "ParameterFile": "",
+        "RandomSeed": 42,
+        "ActuatorFidelity": "ENGINEERING",
+        "SensorFidelity": "ENGINEERING"
+      },
+      {
+        "Trial": 3,
+        "Axis": "pitch",
+        "Level": 2,
+        "Status": "FAIL",
+        "FailureReason": "MODE_DROPOUT",
+        "CompletionClass": "FAILED_OTHER",
+        "FirstFinishedTime_s": null,
+        "RunDirectory": "E:\\动力学搭建\\成品\\UAV_Autotune_v5_4_1_Validation_Fix\\results\\v5_4_1\\campaigns\\20260825_170738_275_repeatability_level2\\pitch\\trial_3\\20260825_171540_370_native_pitch_autotune_repeat_3",
+        "ParameterFile": "",
+        "RandomSeed": 42,
+        "ActuatorFidelity": "ENGINEERING",
+        "SensorFidelity": "ENGINEERING"
+      }
+    ],
+    "statistics": [
+      {
+        "Parameter": "PTCH_RATE_FF",
+        "N": 0,
+        "Mean": null,
+        "Std": null,
+        "CV": null,
+        "Minimum": null,
+        "Maximum": null,
+        "Pass": false
+      },
+      {
+        "Parameter": "PTCH_RATE_P",
+        "N": 0,
+        "Mean": null,
+        "Std": null,
+        "CV": null,
+        "Minimum": null,
+        "Maximum": null,
+        "Pass": false
+      },
+      {
+        "Parameter": "PTCH_RATE_I",
+        "N": 0,
+        "Mean": null,
+        "Std": null,
+        "CV": null,
+        "Minimum": null,
+        "Maximum": null,
+        "Pass": false
+      },
+      {
+        "Parameter": "PTCH_RATE_D",
+        "N": 0,
+        "Mean": null,
+        "Std": null,
+        "CV": null,
+        "Minimum": null,
+        "Maximum": null,
+        "Pass": false
+      },
+      {
+        "Parameter": "PTCH2SRV_RMAX_UP",
+        "N": 0,
+        "Mean": null,
+        "Std": null,
+        "CV": null,
+        "Minimum": null,
+        "Maximum": null,
+        "Pass": false
+      },
+      {
+        "Parameter": "PTCH2SRV_RMAX_DN",
+        "N": 0,
+        "Mean": null,
+        "Std": null,
+        "CV": null,
+        "Minimum": null,
+        "Maximum": null,
+        "Pass": false
+      },
+      {
+        "Parameter": "PTCH2SRV_TCONST",
+        "N": 0,
+        "Mean": null,
+        "Std": null,
+        "CV": null,
+        "Minimum": null,
+        "Maximum": null,
+        "Pass": false
+      }
+    ]
+  }
+}

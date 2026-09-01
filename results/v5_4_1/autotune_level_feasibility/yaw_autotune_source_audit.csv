@@ -1,0 +1,5 @@
+Commit,Source,Finding,Conclusion
+1511f27194f1dcc3728270883047bdf022b3fd53,ArduPlane/Attitude.cpp,Plane starts the Yaw autotune hook when the axis mask requests Yaw,HOOK_EXISTS
+1511f27194f1dcc3728270883047bdf022b3fd53,libraries/APM_Control/AP_YawController.cpp,The Yaw tuner is allocated only when rate_control_enabled() is true,RATE_CONTROL_REQUIRED
+1511f27194f1dcc3728270883047bdf022b3fd53,ArduPlane/Attitude.cpp,Coordinated-yaw tuning also requires ACRO_YAW_RATE > 0,ACRO_YAW_RATE_REQUIRED
+1511f27194f1dcc3728270883047bdf022b3fd53,config/autotune/baseline.param,The V5.4/V5.4.1 baseline explicitly sets YAW_RATE_ENABLE=0,YAW_NATIVE_TUNING_DISABLED_IN_BASELINE

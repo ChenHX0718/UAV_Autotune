@@ -1,0 +1,7 @@
+{
+  "schema_version": 2,
+  "aircraft_id": "UAV_A",
+  "created_or_updated": "2026-08-19T09:24:21",
+  "legacy_scoped_reuse_allowed": true,
+  "migration_note": "Migrated from v4.2 portable package. Legacy untagged results are allowed ONLY inside this UAV_A workspace so previous computation can continue. New aircraft workspaces default to false."
+}

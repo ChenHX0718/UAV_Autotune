@@ -1,0 +1,10 @@
+{
+  "pass": true,
+  "state": "STARTED",
+  "entry_mode": "AUTOTUNE",
+  "exit_after_sim_seconds": 180,
+  "scoring_start_sim_seconds": 8,
+  "scoring_end_sim_seconds": 180,
+  "autotune_axis": "pitch",
+  "detail": "\n\nState                  : STARTED\nEntryMode              : AUTOTUNE\nExitAfterSimSeconds    : 180\nScoringStartSimSeconds : 8\nScoringEndSimSeconds   : 180\nWindowsHostPid         : 29220\n\n\n\n"
+}

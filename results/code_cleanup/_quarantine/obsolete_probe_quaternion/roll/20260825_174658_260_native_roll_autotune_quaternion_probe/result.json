@@ -1,0 +1,181 @@
+{
+  "overall": "FAIL",
+  "failure_reason": "STARTUP_TIMEOUT",
+  "run_directory": "E:\\动力学搭建\\成品\\UAV_Autotune_v5_4_1_Validation_Fix\\results\\v5_4_1\\campaigns\\20260825_174657_355_quaternion_probe\\roll\\20260825_174658_260_native_roll_autotune_quaternion_probe",
+  "scenario": "native_roll_autotune",
+  "axis": "roll",
+  "requested_mode": "AUTOTUNE",
+  "simulation_pass": false,
+  "simulation_error": "错误使用 v53.runScenario (第 103 行)\n计算 '<a href=\"matlab:open_and_hilite_hyperlink ('UAV_Autotune_Model_4Axis/Autopilot_PID/Cascaded_PID','error')\">UAV_Autotune_Model_4Axis/Autopilot_PID/Cascaded_PID</a>' 中的 MATLAB S-Function 'uav_autopilot_sfunc' 的注册方法\n'Outputs' 时出错。以下是产生此错误的 MATLAB 调用堆栈(文件名和行号):\n ['E:\\动力学搭建\\成品\\UAV_Autotune_v5_4_1_Validation_Fix\\model\\V52ArduPilotJSONBridge.m'] [230]\n ['E:\\动力学搭建\\成品\\UAV_Autotune_v5_4_1_Validation_Fix\\model\\V52ArduPilotJSONBridge.m'] [96]\n ['E:\\动力学搭建\\成品\\UAV_Autotune_v5_4_1_Validation_Fix\\model\\ardupilot_sitl_controller.m'] [15]\n ['E:\\动力学搭建\\成品\\UAV_Autotune_v5_4_1_Validation_Fix\\model\\uav_autopilot_sfunc.m'] [54]\n ['D:\\Program\n Files\\MATLAB\\R2024b\\toolbox\\simulink\\simulationinput_desktop\\+Simulink\\+Simulation\\+internal\\DesktopSimHelper.p']\n [0]\n ['D:\\Program\n Files\\MATLAB\\R2024b\\toolbox\\simulink\\simulationinput_desktop\\+Simulink\\+Simulation\\+internal\\DesktopSimHelper.p']\n [0]\n ['D:\\Program Files\\MATLAB\\R2024b\\toolbox\\simulink\\simulationinput\\+Simulink\\SimulationInput.p'] [0]\n ['E:\\动力学搭建\\成品\\UAV_Autotune_v5_4_1_Validation_Fix\\matlab\\+v53\\runScenario.m'] [103]\n ['E:\\动力学搭建\\成品\\UAV_Autotune_v5_4_1_Validation_Fix\\run_v541_native_autotune_axis.m'] [27]\n\n出错 run_v541_native_autotune_axis (第 27 行)\nrun = v53.runScenario(design.scenario_name,Distro=options.Distro, ...\n^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n原因:\n    错误使用 Simulink.Simulation.internal.DesktopSimHelper\n    Mode gate abort handover completed at 22.040 s.\n    \n    出错 Simulink.Simulation.internal.DesktopSimHelper.sim\n    \n    出错 Simulink.SimulationInput/sim\n    \n    出错 v53.runScenario (第 103 行)\n            out = sim(in);\n            ^^^^^^^^^^^^^^\n    出错 run_v541_native_autotune_axis (第 27 行)\n    run = v53.runScenario(design.scenario_name,Distro=options.Distro, ...\n    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^",
+  "dataflash_pass": true,
+  "dataflash_detail": "{\"source\": \"/mnt/e/\\u52a8\\u529b\\u5b66\\u642d\\u5efa/\\u6210\\u54c1/UAV_Autotune_v5_4_1_Validation_Fix/results/v5_4_1/campaigns/20260825_174657_355_quaternion_probe/roll/20260825_174658_260_native_roll_autotune_quaternion_probe/logs/00000001.BIN\", \"message_counts\": {\"ATT\": 494, \"RCIN\": 494, \"RCOU\": 494, \"PIDR\": 494, \"PIDP\": 494, \"PIDY\": 494, \"PARM\": 1350, \"MODE\": 1, \"CTUN\": 494, \"NTUN\": 494, \"VER\": 1, \"MSG\": 21, \"EV\": 1}, \"export_pass\": true}\n",
+  "mode_pass": false,
+  "mode_session": {
+    "connection": "udpin:127.0.0.1:14552",
+    "entry_mode": "AUTOTUNE",
+    "started_timestamp_utc": "2026-08-25T09:47:15.172644+00:00",
+    "pass": false,
+    "failure_reason": "STARTUP_TIMEOUT",
+    "state": "WAIT_FOR_SITL_READY",
+    "sitl_ready": {
+      "pass": false,
+      "state": "WAIT_FOR_SITL_READY",
+      "failure_reason": "STARTUP_TIMEOUT",
+      "detail": "SITL_READY_NOT_REACHED_BEFORE_TIMEOUT_OR_SCORING_WINDOW",
+      "observed_simulation_s": 20,
+      "heartbeat_observed_count": 22,
+      "heartbeat_required_count": 3,
+      "fdm": {
+        "pass": true,
+        "required_consecutive_frames": 20,
+        "packet_rows_observed": 20,
+        "state_rows_observed": 20,
+        "timestamp_monotonic": true,
+        "frame_continuity": true,
+        "no_dropped_or_invalid_frames": true,
+        "state_reasonable": true,
+        "observed_simulation_s": 20,
+        "observed_frame_start": 982,
+        "observed_frame_end": 1001,
+        "sensor_state_sources": [
+          "IMU_GYRO",
+          "IMU_ACCEL",
+          "ATTITUDE",
+          "AIRSPEED",
+          "POSITION",
+          "VELOCITY"
+        ],
+        "detail": "FDM_AND_SENSOR_STATE_STABLE"
+      },
+      "attitude_alignment": {
+        "pass": false,
+        "required_consecutive_messages": 5,
+        "observed_consecutive_messages": 0,
+        "roll_error_deg": 13.431102549966514,
+        "pitch_error_deg": 11.956851592092383,
+        "yaw_error_deg": 46.699198638481931,
+        "roll_pitch_tolerance_deg": 5,
+        "yaw_tolerance_deg": 15,
+        "detail": "FIRMWARE_ATTITUDE_NOT_YET_ALIGNED"
+      },
+      "parameter_query_pass": false,
+      "parameter_query_attempts": 0,
+      "parameter_list_fallback_requested": false,
+      "observed_parameter_ids": [
+        "BARO1_GND_PRESS",
+        "BARO2_GND_PRESS",
+        "ARMING_SKIPCHK",
+        "STAT_RUNTIME",
+        "STAT_FLTCNT",
+        "EK3_SRC1_POSXY",
+        "MIS_TOTAL"
+      ]
+    },
+    "detail": "SITL_READY_NOT_REACHED_BEFORE_TIMEOUT_OR_SCORING_WINDOW"
+  },
+  "mode_scoring_audit": {
+    "pass": false,
+    "failure_reason": "MODE_DROPOUT",
+    "expected_mode": "AUTOTUNE",
+    "expected_mode_number": 8,
+    "scoring_start_time_s": 20,
+    "scoring_end_time_s": 25,
+    "coverage_tolerance": 0,
+    "fbwa_coverage": 0,
+    "manual_coverage": 1,
+    "other_mode_coverage": 0,
+    "detail": "DATAFLASH_SCORING_WINDOW_MODE_COVERAGE_FAILED",
+    "expected_mode_coverage": 0,
+    "duration_expected_s": 0,
+    "duration_manual_s": 1.9999879999999983,
+    "duration_other_s": 0,
+    "dataflash_end_time_s": 21.999988,
+    "observed_scoring_end_time_s": 21.999988,
+    "complete_scoring_window": false
+  },
+  "packet_integrity": {
+    "pass": true,
+    "failure_reason": "",
+    "count": 1102,
+    "intentional_truncation": true,
+    "expected_minimum": 880,
+    "nan_count": 0,
+    "inf_count": 0,
+    "dropped": 0,
+    "invalid": 0
+  },
+  "safety": {
+    "pass": false,
+    "failure_reason": "LOG_MISSING",
+    "checks": [
+      {
+        "checks": "finite_state",
+        "pass": false,
+        "observed": null,
+        "threshold": null,
+        "detail": ""
+      },
+      {
+        "checks": "roll",
+        "pass": false,
+        "observed": null,
+        "threshold": null,
+        "detail": ""
+      },
+      {
+        "checks": "pitch",
+        "pass": false,
+        "observed": null,
+        "threshold": null,
+        "detail": ""
+      },
+      {
+        "checks": "airspeed",
+        "pass": false,
+        "observed": null,
+        "threshold": null,
+        "detail": ""
+      },
+      {
+        "checks": "aoa",
+        "pass": false,
+        "observed": null,
+        "threshold": null,
+        "detail": ""
+      },
+      {
+        "checks": "sideslip",
+        "pass": false,
+        "observed": null,
+        "threshold": null,
+        "detail": ""
+      },
+      {
+        "checks": "altitude",
+        "pass": false,
+        "observed": null,
+        "threshold": null,
+        "detail": ""
+      },
+      {
+        "checks": "angular_rate",
+        "pass": false,
+        "observed": null,
+        "threshold": null,
+        "detail": ""
+      },
+      {
+        "checks": "servo_saturation",
+        "pass": false,
+        "observed": null,
+        "threshold": null,
+        "detail": ""
+      }
+    ]
+  },
+  "atrp_present": false,
+  "parameter_readback_pass": true,
+  "online_safety_abort": false,
+  "mode_dropout": true,
+  "autotune_completion_class": "FAILED_OTHER"
+}

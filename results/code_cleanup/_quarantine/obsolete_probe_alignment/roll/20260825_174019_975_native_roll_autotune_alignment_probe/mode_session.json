@@ -1,0 +1,63 @@
+{
+  "connection": "udpin:127.0.0.1:14552",
+  "entry_mode": "AUTOTUNE",
+  "started_timestamp_utc": "2026-08-25T09:40:36.142934+00:00",
+  "pass": false,
+  "failure_reason": "STARTUP_TIMEOUT",
+  "state": "WAIT_FOR_SITL_READY",
+  "sitl_ready": {
+    "pass": false,
+    "state": "WAIT_FOR_SITL_READY",
+    "failure_reason": "STARTUP_TIMEOUT",
+    "detail": "SITL_READY_NOT_REACHED_BEFORE_TIMEOUT_OR_SCORING_WINDOW",
+    "observed_simulation_s": 20.0,
+    "heartbeat_observed_count": 22,
+    "heartbeat_required_count": 3,
+    "fdm": {
+      "pass": true,
+      "required_consecutive_frames": 20,
+      "packet_rows_observed": 20,
+      "state_rows_observed": 20,
+      "timestamp_monotonic": true,
+      "frame_continuity": true,
+      "no_dropped_or_invalid_frames": true,
+      "state_reasonable": true,
+      "observed_simulation_s": 20.0,
+      "observed_frame_start": 982,
+      "observed_frame_end": 1001,
+      "sensor_state_sources": [
+        "IMU_GYRO",
+        "IMU_ACCEL",
+        "ATTITUDE",
+        "AIRSPEED",
+        "POSITION",
+        "VELOCITY"
+      ],
+      "detail": "FDM_AND_SENSOR_STATE_STABLE"
+    },
+    "attitude_alignment": {
+      "pass": false,
+      "required_consecutive_messages": 5,
+      "observed_consecutive_messages": 0,
+      "roll_error_deg": 13.36593400754813,
+      "pitch_error_deg": 11.988779324688947,
+      "yaw_error_deg": 46.78149217269683,
+      "roll_pitch_tolerance_deg": 5.0,
+      "yaw_tolerance_deg": 15.0,
+      "detail": "FIRMWARE_ATTITUDE_NOT_YET_ALIGNED"
+    },
+    "parameter_query_pass": false,
+    "parameter_query_attempts": 0,
+    "parameter_list_fallback_requested": false,
+    "observed_parameter_ids": [
+      "BARO1_GND_PRESS",
+      "BARO2_GND_PRESS",
+      "ARMING_SKIPCHK",
+      "STAT_RUNTIME",
+      "STAT_FLTCNT",
+      "EK3_SRC1_POSXY",
+      "MIS_TOTAL"
+    ]
+  },
+  "detail": "SITL_READY_NOT_REACHED_BEFORE_TIMEOUT_OR_SCORING_WINDOW"
+}

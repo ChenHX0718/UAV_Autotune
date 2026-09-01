@@ -1,0 +1,18 @@
+Check,Status,Detail
+Active JSON parse,PASS,All seven active configuration JSON files parsed successfully.
+PowerShell syntax,PASS,All eleven scripts parsed with the PowerShell language parser.
+Python AST,PASS,Both active Python scripts parsed successfully.
+MATLAB file/function names,PASS,All active primary function names match their filenames.
+UAV package references,PASS,Every uav.<function> reference resolves to matlab/+uav.
+Legacy active-reference scan,PASS,No old package/direct-attitude/MIL backend reference in active MATLAB code.
+SLX S-function reference scan,PASS,All seven retained S-functions are referenced and no old bridge/helper reference was found in model XML.
+SITL script root resolution,PASS,Get-ProjectRoot resolves to the current project root; version 5.4.1 and default Level 2 load correctly.
+Expected artifact inventory,PASS,All entries; model; scenarios; scripts; tests; documentation; report and regression table exist.
+Root entry cleanliness,PASS,Only setup_project.m and start_autotune.m remain as root MATLAB files.
+Documentation command scan,PASS,No removed tools path or old run_v5*/V52 command remains in the user documentation.
+MATLAB Code Analyzer,NOT_RUN,MATLAB integration could not attach to the local MATLAB session.
+MATLAB regression suite,NOT_RUN,MATLAB integration could not attach; no test result was fabricated.
+Simulink load/update,NOT_RUN,MATLAB integration could not attach.
+Sensor/actuator simulation regression,NOT_RUN,MATLAB integration could not attach.
+WSL shell syntax,NOT_RUN,WSL invocation returned before bash execution; the local WSL environment was unavailable.
+ArduPilot native smoke run,NOT_RUN,Not launched because MATLAB/WSL execution environments were unavailable.

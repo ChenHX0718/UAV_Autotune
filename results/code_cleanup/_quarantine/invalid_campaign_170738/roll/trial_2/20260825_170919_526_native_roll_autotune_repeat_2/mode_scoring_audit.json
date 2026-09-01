@@ -1,0 +1,14 @@
+{
+  "pass": false,
+  "failure_reason": "MODE_CHANGE_FAIL",
+  "expected_mode": "AUTOTUNE",
+  "expected_mode_number": 8,
+  "scoring_start_time_s": 8,
+  "scoring_end_time_s": 146,
+  "coverage_tolerance": 0,
+  "fbwa_coverage": 0,
+  "manual_coverage": 0,
+  "other_mode_coverage": 0,
+  "detail": "SCORING_WINDOW_NOT_REACHED",
+  "dataflash_end_time_s": 7.279988
+}

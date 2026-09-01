@@ -1,0 +1,76 @@
+Setting SIM_SPEEDUP=1.000000
+Setting SIM_RATE_HZ=50.000000
+Starting SITL: JSON
+Home: 39.904200 116.407400 alt=120.000000m hdg=0.000000
+JSON control interface set to 172.26.48.1:9002
+Starting sketch 'ArduPlane'
+Starting SITL input
+Using Irlock at port : 9005
+UDP connection 172.26.48.1:14550
+Loaded defaults from /mnt/e/动力学搭建/成品/UAV_Autotune_v5_4_1_Validation_Fix/results/v5_4_1/campaigns/20260825_174657_355_quaternion_probe/roll/20260825_174658_260_native_roll_autotune_quaternion_probe/parameter_snapshot.param
+No JSON sensor message received, resending servos
+No JSON sensor message received, resending servos
+No JSON sensor message received, resending servos
+No JSON sensor message received, resending servos
+No JSON sensor message received, resending servos
+No JSON sensor message received, resending servos
+No JSON sensor message received, resending servos
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	attitude
+	quaternion
+	velocity
+	velocity_wind
+	airspeed
+	no_time_sync
+	no_lockstep
+	rc: rc_1
+	rc: rc_2
+	rc: rc_3
+	rc: rc_4
+	rc: rc_5
+	rc: rc_6
+	rc: rc_7
+	rc: rc_8
+
+UDP connection 172.26.48.1:14551
+UDP connection 127.0.0.1:14552
+validate_structures:538: Validating structures
+Loaded defaults from /mnt/e/动力学搭建/成品/UAV_Autotune_v5_4_1_Validation_Fix/results/v5_4_1/campaigns/20260825_174657_355_quaternion_probe/roll/20260825_174658_260_native_roll_autotune_quaternion_probe/parameter_snapshot.param
+No JSON sensor message received, resending servos
+No JSON sensor message received, resending servos
+No JSON sensor message received, resending servos
+No JSON sensor message received, resending servos
+No JSON sensor message received, resending servos
+No JSON sensor message received, resending servos
+No JSON sensor message received, resending servos
+No JSON sensor message received, resending servos
+No JSON sensor message received, resending servos
+No JSON sensor message received, resending servos
+No JSON sensor message received, resending servos
+No JSON sensor message received, resending servos
+No JSON sensor message received, resending servos
+No JSON sensor message received, resending servos
+No JSON sensor message received, resending servos
+No JSON sensor message received, resending servos
+No JSON sensor message received, resending servos
+No JSON sensor message received, resending servos
+No JSON sensor message received, resending servos
+No JSON sensor message received, resending servos
+No JSON sensor message received, resending servos
+No JSON sensor message received, resending servos
+No JSON sensor message received, resending servos
+No JSON sensor message received, resending servos
+No JSON sensor message received, resending servos
+No JSON sensor message received, resending servos
+No JSON sensor message received, resending servos
+No JSON sensor message received, resending servos
+No JSON sensor message received, resending servos
+No JSON sensor message received, resending servos
+No JSON sensor message received, resending servos
+No JSON sensor message received, resending servos
+No JSON sensor message received, resending servos

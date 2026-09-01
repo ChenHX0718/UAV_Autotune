@@ -1,0 +1,144 @@
+{
+  "connection": "udpin:127.0.0.1:14552",
+  "entry_mode": "AUTOTUNE",
+  "started_timestamp_utc": "2026-08-25T09:07:54.886493+00:00",
+  "pass": false,
+  "failure_reason": "MODE_CHANGE_FAIL",
+  "state": "REQUEST_AUTOTUNE",
+  "sitl_ready": {
+    "pass": true,
+    "state": "SITL_READY",
+    "ready_timestamp_utc": "2026-08-25T09:08:20.163539+00:00",
+    "ready_simulation_s": 4.08,
+    "minimum_startup_guard_s": 4.0,
+    "heartbeat": {
+      "pass": true,
+      "required_count": 3,
+      "observed_count": 6
+    },
+    "fdm": {
+      "pass": true,
+      "required_consecutive_frames": 20,
+      "packet_rows_observed": 20,
+      "state_rows_observed": 20,
+      "timestamp_monotonic": true,
+      "frame_continuity": true,
+      "no_dropped_or_invalid_frames": true,
+      "state_reasonable": true,
+      "observed_simulation_s": 4.08,
+      "observed_frame_start": 186,
+      "observed_frame_end": 205,
+      "sensor_state_sources": [
+        "IMU_GYRO",
+        "IMU_ACCEL",
+        "ATTITUDE",
+        "AIRSPEED",
+        "POSITION",
+        "VELOCITY"
+      ],
+      "detail": "FDM_AND_SENSOR_STATE_STABLE"
+    },
+    "sensor_state": {
+      "pass": true,
+      "sources": [
+        "IMU_GYRO",
+        "IMU_ACCEL",
+        "ATTITUDE",
+        "AIRSPEED",
+        "POSITION",
+        "VELOCITY"
+      ],
+      "detail": "CONTINUOUS_FINITE_STATE_UPDATES"
+    },
+    "parameter_query": {
+      "pass": true,
+      "parameter": "AUTOTUNE_LEVEL",
+      "value": 2.0,
+      "readback_timestamp_utc": "2026-08-25T09:08:20.163513+00:00"
+    }
+  },
+  "target_system": 1,
+  "target_component": 1,
+  "precondition": {
+    "requested_mode": "FBWA",
+    "requested_mode_number": 5,
+    "request_timestamp_utc": "2026-08-25T09:08:20.179982+00:00",
+    "ack_received": true,
+    "ack_result": 0,
+    "readback_mode_number": 5,
+    "readback_pass": true,
+    "pass": true,
+    "failure_reason": "",
+    "ack_timestamp_utc": "2026-08-25T09:08:20.398119+00:00",
+    "readback_timestamp_utc": "2026-08-25T09:08:20.398173+00:00",
+    "detail": "ACK_READBACK_AND_STABLE_HEARTBEATS_PASS",
+    "stable_confirmation": {
+      "pass": true,
+      "expected_mode": "FBWA",
+      "expected_mode_number": 5,
+      "required_heartbeat_count": 3,
+      "observed_consecutive_heartbeat_count": 3,
+      "required_stable_simulation_s": 1.0,
+      "observed_stable_simulation_s": 1.2199999999999998,
+      "ready_simulation_s": 5.34,
+      "confirmation_timestamp_utc": "2026-08-25T09:08:26.249264+00:00"
+    },
+    "ready_simulation_s": 5.34
+  },
+  "fbwa_ready": {
+    "pass": true,
+    "state": "FBWA_READY",
+    "ready_simulation_s": 5.34,
+    "ready_timestamp_utc": "2026-08-25T09:08:26.253124+00:00",
+    "mode_evidence": {
+      "requested_mode": "FBWA",
+      "requested_mode_number": 5,
+      "request_timestamp_utc": "2026-08-25T09:08:20.179982+00:00",
+      "ack_received": true,
+      "ack_result": 0,
+      "readback_mode_number": 5,
+      "readback_pass": true,
+      "pass": true,
+      "failure_reason": "",
+      "ack_timestamp_utc": "2026-08-25T09:08:20.398119+00:00",
+      "readback_timestamp_utc": "2026-08-25T09:08:20.398173+00:00",
+      "detail": "ACK_READBACK_AND_STABLE_HEARTBEATS_PASS",
+      "stable_confirmation": {
+        "pass": true,
+        "expected_mode": "FBWA",
+        "expected_mode_number": 5,
+        "required_heartbeat_count": 3,
+        "observed_consecutive_heartbeat_count": 3,
+        "required_stable_simulation_s": 1.0,
+        "observed_stable_simulation_s": 1.2199999999999998,
+        "ready_simulation_s": 5.34,
+        "confirmation_timestamp_utc": "2026-08-25T09:08:26.249264+00:00"
+      },
+      "ready_simulation_s": 5.34
+    }
+  },
+  "entry": {
+    "requested_mode": "AUTOTUNE",
+    "requested_mode_number": 8,
+    "request_timestamp_utc": "2026-08-25T09:08:26.256186+00:00",
+    "ack_received": true,
+    "ack_result": 0,
+    "readback_mode_number": 8,
+    "readback_pass": true,
+    "pass": false,
+    "failure_reason": "MODE_CHANGE_FAIL",
+    "ack_timestamp_utc": "2026-08-25T09:08:26.889645+00:00",
+    "readback_timestamp_utc": "2026-08-25T09:08:26.889717+00:00",
+    "detail": "MODE_REQUEST_OR_STABLE_CONFIRMATION_FAILED",
+    "stable_confirmation": {
+      "pass": false,
+      "failure_reason": "MODE_CHANGE_FAIL",
+      "detail": "CONSECUTIVE_MODE_HEARTBEAT_CONFIRMATION_FAILED",
+      "expected_mode": "AUTOTUNE",
+      "observed_consecutive_heartbeat_count": 2,
+      "unexpected_modes": [],
+      "observed_simulation_s": 7.26
+    }
+  },
+  "detail": "ENTRY_MODE_FAILED"
+}

@@ -1,0 +1,65 @@
+{
+  "axis": "roll",
+  "status": "FAIL",
+  "completion_class": "INCOMPLETE_TIMEOUT",
+  "failure_reason": "INCOMPLETE_TIMEOUT",
+  "atrp_rows": 3490,
+  "effective_excitation_count": 47,
+  "rejected_excitation_count": 0,
+  "d_boundary_observed": true,
+  "p_boundary_observed": true,
+  "finished_message_observed": false,
+  "first_finished_time_s": null,
+  "finished_message": "",
+  "parameter_summary": [
+    {
+      "Parameter": "FF",
+      "Initial": 0.30000001192092896,
+      "MinimumObserved": 0.30000001192092896,
+      "MaximumObserved": 0.7604752779006958,
+      "Final": 0.74285316467285156,
+      "NumberOfUpdates": 40
+    },
+    {
+      "Parameter": "P",
+      "Initial": 0.0840499997138977,
+      "MinimumObserved": 0.014708749949932098,
+      "MaximumObserved": 2.7953910827636719,
+      "Final": 0.97838687896728516,
+      "NumberOfUpdates": 23
+    },
+    {
+      "Parameter": "I",
+      "Initial": 0.58646249771118164,
+      "MinimumObserved": 0.014708749949932098,
+      "MaximumObserved": 0.74285316467285156,
+      "Final": 0.74285316467285156,
+      "NumberOfUpdates": 20
+    },
+    {
+      "Parameter": "D",
+      "Initial": 0.0014349999837577343,
+      "MinimumObserved": 0.0010762499878183007,
+      "MaximumObserved": 0.3456738293170929,
+      "Final": 0.10370215028524399,
+      "NumberOfUpdates": 24
+    },
+    {
+      "Parameter": "RMAX",
+      "Initial": 55,
+      "MinimumObserved": 30,
+      "MaximumObserved": 55,
+      "Final": 30,
+      "NumberOfUpdates": 2
+    },
+    {
+      "Parameter": "TAU",
+      "Initial": 0.585349977016449,
+      "MinimumObserved": 0.585349977016449,
+      "MaximumObserved": 0.89999997615814209,
+      "Final": 0.89999997615814209,
+      "NumberOfUpdates": 4
+    }
+  ],
+  "timeline_file": "E:\\动力学搭建\\成品\\UAV_Autotune_v5_4_1_Validation_Fix\\results\\v5_4_1\\campaigns\\20260825_175722_539_repeatability_level2\\roll\\trial_1\\20260825_175723_637_native_roll_autotune_repeat_1\\AUTOTUNE_TIMELINE.csv"
+}

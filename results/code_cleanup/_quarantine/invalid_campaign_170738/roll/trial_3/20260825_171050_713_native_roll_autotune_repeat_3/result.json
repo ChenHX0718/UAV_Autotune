@@ -1,0 +1,141 @@
+{
+  "overall": "FAIL",
+  "failure_reason": "MODE_DROPOUT",
+  "run_directory": "E:\\动力学搭建\\成品\\UAV_Autotune_v5_4_1_Validation_Fix\\results\\v5_4_1\\campaigns\\20260825_170738_275_repeatability_level2\\roll\\trial_3\\20260825_171050_713_native_roll_autotune_repeat_3",
+  "scenario": "native_roll_autotune",
+  "axis": "roll",
+  "requested_mode": "AUTOTUNE",
+  "simulation_pass": false,
+  "simulation_error": "错误使用 v53.runScenario (第 103 行)\n计算 '<a href=\"matlab:open_and_hilite_hyperlink ('UAV_Autotune_Model_4Axis/Autopilot_PID/Cascaded_PID','error')\">UAV_Autotune_Model_4Axis/Autopilot_PID/Cascaded_PID</a>' 中的 MATLAB S-Function 'uav_autopilot_sfunc' 的注册方法\n'Outputs' 时出错。以下是产生此错误的 MATLAB 调用堆栈(文件名和行号):\n ['E:\\动力学搭建\\成品\\UAV_Autotune_v5_4_1_Validation_Fix\\model\\V52ArduPilotJSONBridge.m'] [244]\n ['E:\\动力学搭建\\成品\\UAV_Autotune_v5_4_1_Validation_Fix\\model\\V52ArduPilotJSONBridge.m'] [97]\n ['E:\\动力学搭建\\成品\\UAV_Autotune_v5_4_1_Validation_Fix\\model\\ardupilot_sitl_controller.m'] [15]\n ['E:\\动力学搭建\\成品\\UAV_Autotune_v5_4_1_Validation_Fix\\model\\uav_autopilot_sfunc.m'] [54]\n ['D:\\Program\n Files\\MATLAB\\R2024b\\toolbox\\simulink\\simulationinput_desktop\\+Simulink\\+Simulation\\+internal\\DesktopSimHelper.p']\n [0]\n ['D:\\Program\n Files\\MATLAB\\R2024b\\toolbox\\simulink\\simulationinput_desktop\\+Simulink\\+Simulation\\+internal\\DesktopSimHelper.p']\n [0]\n ['D:\\Program Files\\MATLAB\\R2024b\\toolbox\\simulink\\simulationinput\\+Simulink\\SimulationInput.p'] [0]\n ['E:\\动力学搭建\\成品\\UAV_Autotune_v5_4_1_Validation_Fix\\matlab\\+v53\\runScenario.m'] [103]\n ['E:\\动力学搭建\\成品\\UAV_Autotune_v5_4_1_Validation_Fix\\run_v541_native_autotune_axis.m'] [27]\n ['E:\\动力学搭建\\成品\\UAV_Autotune_v5_4_1_Validation_Fix\\run_v541_autotune_repeatability.m'] [47]\n\n出错 run_v541_native_autotune_axis (第 27 行)\nrun = v53.runScenario(design.scenario_name,Distro=options.Distro, ...\n^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n出错 run_v541_autotune_repeatability (第 47 行)\n            single = run_v541_native_autotune_axis(axisName, ...\n            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n原因:\n    错误使用 Simulink.Simulation.internal.DesktopSimHelper\n    Online safety handover window completed at 7.280 s.\n    \n    出错 Simulink.Simulation.internal.DesktopSimHelper.sim\n    \n    出错 Simulink.SimulationInput/sim\n    \n    出错 v53.runScenario (第 103 行)\n            out = sim(in);\n            ^^^^^^^^^^^^^^\n    出错 run_v541_native_autotune_axis (第 27 行)\n    run = v53.runScenario(design.scenario_name,Distro=options.Distro, ...\n    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n    出错 run_v541_autotune_repeatability (第 47 行)\n                single = run_v541_native_autotune_axis(axisName, ...\n                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^",
+  "dataflash_pass": true,
+  "dataflash_detail": "{\"source\": \"/mnt/e/\\u52a8\\u529b\\u5b66\\u642d\\u5efa/\\u6210\\u54c1/UAV_Autotune_v5_4_1_Validation_Fix/results/v5_4_1/campaigns/20260825_170738_275_repeatability_level2/roll/trial_3/20260825_171050_713_native_roll_autotune_repeat_3/logs/00000001.BIN\", \"message_counts\": {\"ATT\": 123, \"RCIN\": 123, \"RCOU\": 123, \"PIDR\": 123, \"PIDP\": 123, \"PIDY\": 123, \"PARM\": 1349, \"MODE\": 3, \"CTUN\": 123, \"NTUN\": 123, \"VER\": 1, \"ATRP\": 45, \"MSG\": 9}, \"export_pass\": true}\n",
+  "mode_pass": false,
+  "mode_session": {
+    "pass": false,
+    "failure_reason": "MODE_CHANGE_FAIL",
+    "detail": "MODE_SESSION_EVIDENCE_MISSING"
+  },
+  "mode_scoring_audit": {
+    "pass": false,
+    "failure_reason": "MODE_CHANGE_FAIL",
+    "expected_mode": "AUTOTUNE",
+    "expected_mode_number": 8,
+    "scoring_start_time_s": 8,
+    "scoring_end_time_s": 146,
+    "coverage_tolerance": 0,
+    "fbwa_coverage": 0,
+    "manual_coverage": 0,
+    "other_mode_coverage": 0,
+    "detail": "SCORING_WINDOW_NOT_REACHED",
+    "dataflash_end_time_s": 7.199988
+  },
+  "packet_integrity": {
+    "pass": true,
+    "failure_reason": "",
+    "count": 364,
+    "intentional_truncation": true,
+    "expected_minimum": 290,
+    "nan_count": 0,
+    "inf_count": 0,
+    "dropped": 0,
+    "invalid": 0
+  },
+  "safety": {
+    "pass": false,
+    "failure_reason": "ENVELOPE_VIOLATION",
+    "checks": [
+      {
+        "checks": "finite_state",
+        "pass": false,
+        "observed": null,
+        "threshold": null,
+        "detail": ""
+      },
+      {
+        "checks": "roll",
+        "pass": false,
+        "observed": null,
+        "threshold": null,
+        "detail": ""
+      },
+      {
+        "checks": "pitch",
+        "pass": false,
+        "observed": null,
+        "threshold": null,
+        "detail": ""
+      },
+      {
+        "checks": "airspeed",
+        "pass": false,
+        "observed": null,
+        "threshold": null,
+        "detail": ""
+      },
+      {
+        "checks": "aoa",
+        "pass": false,
+        "observed": null,
+        "threshold": null,
+        "detail": ""
+      },
+      {
+        "checks": "sideslip",
+        "pass": false,
+        "observed": null,
+        "threshold": null,
+        "detail": ""
+      },
+      {
+        "checks": "altitude",
+        "pass": false,
+        "observed": null,
+        "threshold": null,
+        "detail": ""
+      },
+      {
+        "checks": "angular_rate",
+        "pass": false,
+        "observed": null,
+        "threshold": null,
+        "detail": ""
+      },
+      {
+        "checks": "servo_saturation",
+        "pass": false,
+        "observed": null,
+        "threshold": null,
+        "detail": ""
+      }
+    ],
+    "online_abort": {
+      "time_s": 5.28,
+      "failure_reason": "ENVELOPE_VIOLATION",
+      "failed_checks": "sideslip",
+      "observed": [
+        43.752170170816072,
+        19.251932117166234,
+        12.083319343302229,
+        0.086721198906454328,
+        20.052920227398317,
+        120.3927506048618,
+        73.075662049097474
+      ],
+      "thresholds": [
+        45,
+        25,
+        8,
+        15,
+        20,
+        50,
+        300
+      ],
+      "handover_window_s": 2
+    }
+  },
+  "atrp_present": true,
+  "parameter_readback_pass": true,
+  "online_safety_abort": true,
+  "mode_dropout": true,
+  "autotune_completion_class": "FAILED_OTHER"
+}

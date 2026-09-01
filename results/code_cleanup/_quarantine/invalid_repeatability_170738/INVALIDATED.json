@@ -1,0 +1,11 @@
+{
+  "status": "INVALIDATED",
+  "reason": "Configuration changed during the campaign while diagnosing an aileron worksheet-sign versus aerodynamic-sign error.",
+  "use_for_repeatability_statistics": false,
+  "evidence_retained": true,
+  "notes": [
+    "Trials before the fix exhibited positive-feedback divergence.",
+    "The last queued trial was a mixed-configuration communication probe and was intentionally aborted.",
+    "A new campaign ID is required after the fix."
+  ]
+}

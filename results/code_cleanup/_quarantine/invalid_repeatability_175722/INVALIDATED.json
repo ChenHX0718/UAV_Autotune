@@ -1,0 +1,10 @@
+{
+  "status": "INVALIDATED",
+  "reason": "ROLL_TIMEOUT_CAPACITY_INSUFFICIENT_FOR_OFFICIAL_FINISHED",
+  "detail": "Roll trial 1 reached the P-boundary at about 143.4 s but the 146 s scoring deadline did not leave the three additional successful cycles required by ArduPilot before Roll: Finished. The entire campaign uses the superseded RollCycles=24/PitchCycles=40 timeout configuration and is excluded from repeatability promotion.",
+  "replacement_configuration": {
+    "roll_cycles": 30,
+    "pitch_cycles": 20,
+    "completion_gate": "FIRST_EXACT_AXIS_FINISHED_STATUSTEXT"
+  }
+}

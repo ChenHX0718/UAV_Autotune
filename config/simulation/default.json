@@ -1,0 +1,15 @@
+{
+  "solver_type": "Fixed-step",
+  "solver": "ode4",
+  "base_step_s": 0.005,
+  "communication_step_s": 0.02,
+  "logging_step_s": 0.02,
+  "realtime": false,
+  "speedup": 4,
+  "actuator_fidelity": "ENGINEERING",
+  "sensor_fidelity": "ENGINEERING",
+  "aero_fidelity": "nominal",
+  "packet_loss_fail_threshold": 0,
+  "p95_rtt_warning_ms": 10,
+  "max_rtt_fail_ms": 100
+}

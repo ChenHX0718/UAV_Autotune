@@ -1,0 +1,14 @@
+V5.2 ArduPlane JSON adapter log
+2026-08-25 18:35:53.523 | ADAPTER_CREATED | run_dir=E:\动力学搭建\成品\UAV_Autotune_v5_4_1_Validation_Fix\results\v5_4_1\campaigns\20260825_175722_539_repeatability_level2\pitch\trial_2\20260825_183539_150_native_pitch_autotune_repeat_2
+2026-08-25 18:35:53.578 | STATE | STARTING -> WAITING_FOR_SITL | UDP listener ready
+2026-08-25 18:35:53.583 | UDP_LISTEN | local=0.0.0.0:9002
+2026-08-25 18:35:53.870 | STATE | WAITING_FOR_SITL -> CONNECTED | First valid servo frame received
+2026-08-25 18:35:53.874 | BIDIRECTIONAL_HANDSHAKE | sender=172.26.53.158:34341 frame=0
+2026-08-25 18:35:54.063 | RATE_BOOTSTRAP | initial_request_hz=1200.000 applied_step_s=0.020000
+2026-08-25 18:35:54.351 | STATE | CONNECTED -> READY | Fresh frame=1 timestamp=0.020000 and PWM mapping valid
+2026-08-25 18:35:54.381 | STATE | READY -> RUNNING | Lock-step exchange active
+2026-08-25 18:36:00.345 | LOCKSTEP | t=0.980 tx=50 rx=100 frame=50 dropped=0 invalid=0
+2026-08-25 18:36:05.892 | LOCKSTEP | t=1.980 tx=100 rx=200 frame=100 dropped=0 invalid=0
+2026-08-25 18:36:11.709 | LOCKSTEP | t=2.980 tx=150 rx=300 frame=150 dropped=0 invalid=0
+2026-08-25 18:36:48.288 | STATE | RUNNING -> STOPPING | Bridge delete requested
+2026-08-25 18:36:48.478 | ADAPTER_CLOSED | tx=198 rx=395 dropped=0 invalid=0

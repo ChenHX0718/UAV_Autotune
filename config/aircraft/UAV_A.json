@@ -1,0 +1,38 @@
+{
+  "aircraft_id": "UAV_A",
+  "nominal_airspeed_mps": 13,
+  "roll_limit_deg": 20,
+  "pitch_limit_max_deg": 8,
+  "pitch_limit_min_deg": -3,
+  "fbwa_pitch_compensation": {
+    "stab_pitch_down_deg": 2,
+    "throttle_cruise_percent": 45
+  },
+  "rc": {
+    "roll": 1,
+    "pitch": 2,
+    "throttle": 3,
+    "yaw": 4,
+    "mode": 8,
+    "arm": 7,
+    "min_us": 1000,
+    "trim_us": 1500,
+    "max_us": 2000,
+    "deadzone_us": 0,
+    "pitch_command_sign": 1
+  },
+  "servo_output_channels": {
+    "aileron_left": 1,
+    "elevator": 2,
+    "throttle": 3,
+    "rudder": 4,
+    "aileron_right": 5
+  },
+  "surface_limits_deg": {
+    "aileron_left": [-30.55, 37.85],
+    "aileron_right": [-37.85, 30.55],
+    "elevator": [-12, 10],
+    "rudder": [-22, 22]
+  },
+  "angular_rate_limit_deg_s": 720
+}

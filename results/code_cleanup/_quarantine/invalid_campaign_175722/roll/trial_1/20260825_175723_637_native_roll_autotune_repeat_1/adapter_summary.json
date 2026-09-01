@@ -1,0 +1,16 @@
+{
+  "rx_packets": 14902,
+  "tx_packets": 7451,
+  "invalid_packets": 0,
+  "dropped_packets": 0,
+  "duplicate_packets": 7450,
+  "last_frame_count": 7451,
+  "last_frame_rate_hz": 50,
+  "last_rtt_ms": 20.433799999999998,
+  "actuator_representation": "pwm_us",
+  "bridge_normalizes_actuator": false,
+  "state": "STOPPING",
+  "sender_address": "172.26.53.158",
+  "sender_port": 42966,
+  "closed_at": "2026-08-25 18:11:40.102"
+}

@@ -1,0 +1,9 @@
+{
+  "pass": false,
+  "failure_reason": "INCOMPLETE_TIMEOUT",
+  "completion_class": "INCOMPLETE_TIMEOUT",
+  "finished_axis": "roll",
+  "finished_text": "",
+  "observed_end_simulation_s": 146.0,
+  "excitation_action": "NEUTRAL_AT_TIMEOUT"
+}

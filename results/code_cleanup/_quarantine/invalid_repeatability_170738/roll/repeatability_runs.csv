@@ -1,0 +1,4 @@
+Trial,Axis,Level,Status,FailureReason,CompletionClass,FirstFinishedTime_s,RunDirectory,ParameterFile,RandomSeed,ActuatorFidelity,SensorFidelity
+1,roll,2,FAIL,MODE_DROPOUT,FAILED_OTHER,NaN,E:\动力学搭建\成品\UAV_Autotune_v5_4_1_Validation_Fix\results\v5_4_1\campaigns\20260825_170738_275_repeatability_level2\roll\trial_1\20260825_170739_632_native_roll_autotune_repeat_1,,42,ENGINEERING,ENGINEERING
+2,roll,2,FAIL,MODE_DROPOUT,FAILED_OTHER,NaN,E:\动力学搭建\成品\UAV_Autotune_v5_4_1_Validation_Fix\results\v5_4_1\campaigns\20260825_170738_275_repeatability_level2\roll\trial_2\20260825_170919_526_native_roll_autotune_repeat_2,,42,ENGINEERING,ENGINEERING
+3,roll,2,FAIL,MODE_DROPOUT,FAILED_OTHER,NaN,E:\动力学搭建\成品\UAV_Autotune_v5_4_1_Validation_Fix\results\v5_4_1\campaigns\20260825_170738_275_repeatability_level2\roll\trial_3\20260825_171050_713_native_roll_autotune_repeat_3,,42,ENGINEERING,ENGINEERING

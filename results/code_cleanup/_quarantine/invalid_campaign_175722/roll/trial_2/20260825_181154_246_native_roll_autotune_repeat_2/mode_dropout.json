@@ -1,0 +1,7 @@
+{
+  "failure_reason": "MODE_DROPOUT",
+  "detail": "HEARTBEAT_LOST_DURING_MODE_PERSISTENCE_MONITOR",
+  "detected_timestamp_utc": "2026-08-25T10:14:25.131152+00:00",
+  "simulation_time_s": 24.22,
+  "rc_command_action": "NEUTRAL"
+}

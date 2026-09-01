@@ -1,0 +1,10 @@
+{
+  "pass": true,
+  "completion_class": "COMPLETE_OFFICIAL_FINISHED",
+  "finished_axis": "roll",
+  "finished_text": "Roll: Finished",
+  "first_finished_simulation_s": 155.58,
+  "first_finished_timestamp_utc": "2026-08-25T11:32:11.143797+00:00",
+  "excitation_action": "NEUTRAL_IMMEDIATELY",
+  "next_mode": "FBWA"
+}

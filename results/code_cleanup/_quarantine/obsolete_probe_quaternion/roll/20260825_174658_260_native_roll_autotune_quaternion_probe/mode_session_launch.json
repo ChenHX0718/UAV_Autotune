@@ -1,0 +1,10 @@
+{
+  "pass": true,
+  "state": "STARTED",
+  "entry_mode": "AUTOTUNE",
+  "exit_after_sim_seconds": 25,
+  "scoring_start_sim_seconds": 20,
+  "scoring_end_sim_seconds": 25,
+  "autotune_axis": "roll",
+  "detail": "\n\nState                  : STARTED\nEntryMode              : AUTOTUNE\nExitAfterSimSeconds    : 25\nScoringStartSimSeconds : 20\nScoringEndSimSeconds   : 25\nWindowsHostPid         : 37692\n\n\n\n"
+}

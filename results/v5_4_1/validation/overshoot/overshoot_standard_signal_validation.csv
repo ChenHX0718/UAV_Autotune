@@ -1,0 +1,4 @@
+Case,DesiredBefore,DesiredAfter,ActualPeak,OvershootAbsolute,OvershootPercent,ExpectedPercent,Pass
+POSITIVE_0_TO_10,0,10,12,2,20,20,1
+NEGATIVE_0_TO_MINUS10,0,-10,-12,2,20,20,1
+NO_OVERSHOOT,-5,5,4.8,0,0,0,1

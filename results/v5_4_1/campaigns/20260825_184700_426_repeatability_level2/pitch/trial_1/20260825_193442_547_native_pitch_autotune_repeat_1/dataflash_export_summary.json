@@ -1,0 +1,20 @@
+{
+  "source": "/mnt/e/\u52a8\u529b\u5b66\u642d\u5efa/\u6210\u54c1/UAV_Autotune_v5_4_1_Validation_Fix/results/v5_4_1/campaigns/20260825_184700_426_repeatability_level2/pitch/trial_1/20260825_193442_547_native_pitch_autotune_repeat_1/logs/00000001.BIN",
+  "message_counts": {
+    "ATT": 4493,
+    "RCIN": 4492,
+    "RCOU": 4492,
+    "PIDR": 4493,
+    "PIDP": 4493,
+    "PIDY": 4493,
+    "PARM": 1369,
+    "MODE": 4,
+    "CTUN": 4492,
+    "NTUN": 4492,
+    "VER": 1,
+    "ATRP": 4340,
+    "MSG": 26,
+    "EV": 1
+  },
+  "export_pass": true
+}
